@@ -1,0 +1,128 @@
+
+html{
+width: 100vw;
+height: 100vh;
+background-color: #0E259C;
+display: block;
+}
+
+/* .snow{
+  position: fixed;
+  margin: -8vh 0 0 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+.snow1 img{
+display: inline-block;
+position:absolute;
+width: 100vw;
+height: 100vh;
+background: url('../images/9078.png');
+background-position: center;
+background-size: cover;
+animation: snowfalling 50s infinite;
+ animation-delay: none;
+
+}
+.snow2 img{
+  width: 100vw;
+  height: 140vh;
+ animation: snowfalling2 150s infinite;
+ animation-delay: none;
+ display: inline-block;
+ position:absolute;
+}
+.snow3 img{
+  width: 100vw;
+  height: 140vh;
+  transform: rotate(180);
+ animation: snowfalling3 200s infinite;
+ display: inline-block;
+ position:absolute;
+} */
+
+.snow{
+  width: 100vw; position: fixed; margin: 0 0 0 0;
+  overflow: hidden;
+}
+.snow-img{
+  margin:0 0 0 0;
+  width:100vw;
+}
+
+
+
+.panel{
+  position: fixed;
+  margin: 0 0 0 0;
+  width: 100vw;
+  height: 45vh;
+}
+.back {
+  margin-top: -2vh;
+  margin-left: 2vw;
+  position: relative;
+  margin: 2vh 0 0 0;
+}
+.back img{
+  width: 96%;
+  position: relative;
+  margin: 0 0 0 1.5vw;
+}
+.bottons{
+  position: relative;
+  margin: -40vh 0 0 50vw;
+  width: 10vw;
+  height: 42vh;
+}
+.botton1 img{
+  /* background: url('../images/Rectangle 114.svg') no-repeat; */
+  position: relative;
+  width: 10vw;
+  margin: 0 0 0 0;
+}
+.botton2 img{
+  position: relative;
+  width: 10vw;
+  margin: 1.5vh 0 0 0;
+}
+.botton3 img{
+  position: relative;
+  width: 10vw;
+  margin: 1.5vh 0 0 0;
+}
+.botton4 img{
+  position: relative;
+  width: 10vw;
+  margin: 1.5vh 0 0 0;
+}
+.bolts{
+  position: fixed;
+  top: 5.6vh;
+  width: 90vw;
+  height: 40vh;
+}
+.bolt1 img{
+  position: fixed;
+  margin: 0vh 0 0 3vw;
+  width: 2vw;
+}
+.bolt2 img{
+  position: fixed;
+  margin: 36vh 0 0 3vw;
+  width: 2vw;
+}
+.bolt3 img{
+  position: fixed;
+  margin: 0vh 0 0 94vw;
+  width: 2vw;
+}
+.bolt-logo img{
+  position: fixed;
+margin: 36vh 0 0 94vw;
+width: 2vw;
+}
+/* .bolt-logo img{
+  width: 50%;
+} */
