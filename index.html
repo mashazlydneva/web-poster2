@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script>
+
+$(document).ready(function(){
+ let snow = Snap.select('#snow_img');
+
+ snow();
+
+function snow(){
+ animateSnow(snow, cx, cy);
+}
+
+function animateSnow(snow, cx, cy){
+  snow.attr({transform: 't0 -200'});
+  let timing = getRandomArbitrary(2000,10000);
+  snow.stop().animate({ transform: 't0 200 r'+deg+' '+cx+' '+cy}, timing, function(){ animateSnow(snow, cx, cy);});
+	}
+
+
+})
+
+    </script>
+  </head>
+
+  <body>
+<!-- <section class="snow">
+  <div class="snow1">
+  </div>
+  <div class="snow2">
+    <img src="images/9078.png" alt="">
+  </div>
+  <div class="snow3">
+    <img src="images/9078.png" alt="">
+  </div>
+</section> -->
+<div id="snow">
+  <img id="snow_img"src="images/9078.png" style="width: 100vw; height:100vh;">
+</div>
+
+<section class="panel">
+  <div class="back">
+    <img src="images/Rectangle 111.svg" alt="">
+  </div>
+
+<div class="bolts">
+  <div class="bolt1">
+    <img src="images/Group 73.svg" alt="">
+  </div>
+  <div class="bolt2">
+    <img src="images/Group 73.svg" alt="">
+  </div>
+  <div class="bolt3">
+    <img src="images/Group 73.svg" alt="">
+  </div>
+  <div class="bolt-logo">
+    <img src="images/Mask Group.png" alt="">
+  </div>
+</div>
+
+<div class="bottons">
+  <div class="botton1">
+    <img src="images/Rectangle 114.svg" alt="">
+  </div>
+  <div class="botton2">
+    <img src="images/Rectangle 114.svg" alt="">
+  </div>
+  <div class="botton3">
+    <img src="images/Rectangle 114.svg" alt="">
+  </div>
+  <div class="botton4">
+    <img src="images/Rectangle 114.svg" alt="">
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+  </body>
+</html>
