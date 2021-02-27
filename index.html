@@ -8,29 +8,36 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <script>
 
-$(document).ready(function(){
- let snow = Snap.select('#snow_img');
+// $(document).ready(function(){
+//  let snow = Snap.select('#snow_img');
+//
+//  snow();
+//
+// function snow(){
+//  animateSnow(snow, cx, cy);
+// }
+//
+// function animateSnow(snow, cx, cy){
+//   snow.attr({transform: 't0 -200'});
+//   let timing = getRandomArbitrary(2000,10000);
+//   snow.stop().animate({ transform: 't0 200 r'+deg+' '+cx+' '+cy}, timing, function(){ animateSnow(snow, cx, cy);});
+// 	}
+//
+//
+// })
 
- snow();
+$(document). ready(function(){
+ $(".plus").click(function(){
+    $(".numbers").
 
-function snow(){
- animateSnow(snow, cx, cy);
-}
-
-function animateSnow(snow, cx, cy){
-  snow.attr({transform: 't0 -200'});
-  let timing = getRandomArbitrary(2000,10000);
-  snow.stop().animate({ transform: 't0 200 r'+deg+' '+cx+' '+cy}, timing, function(){ animateSnow(snow, cx, cy);});
-	}
-
-
-})
+});
+});
 
     </script>
   </head>
 
   <body>
-<!-- <section class="snow">
+<section class="snow">
   <div class="snow1">
   </div>
   <div class="snow2">
@@ -39,14 +46,13 @@ function animateSnow(snow, cx, cy){
   <div class="snow3">
     <img src="images/9078.png" alt="">
   </div>
-</section> -->
-<div id="snow">
+</section>
+<!-- <div id="snow">
   <img id="snow_img"src="images/9078.png" style="width: 100vw; height:100vh;">
-</div>
+</div> -->
 
 <section class="panel">
   <div class="back">
-    <img src="images/Rectangle 111.svg" alt="">
   </div>
 
 <div class="bolts">
@@ -66,18 +72,77 @@ function animateSnow(snow, cx, cy){
 
 <div class="bottons">
   <div class="botton1">
-    <img src="images/Rectangle 114.svg" alt="">
+    <img src="images/Group 79.svg" alt="">
   </div>
   <div class="botton2">
-    <img src="images/Rectangle 114.svg" alt="">
+    <img src="images/Group 79.svg" alt="">
   </div>
   <div class="botton3">
-    <img src="images/Rectangle 114.svg" alt="">
+    <img src="images/Group 79.svg" alt="">
   </div>
   <div class="botton4">
-    <img src="images/Rectangle 114.svg" alt="">
+    <img src="images/Group 79.svg" alt="">
+  </div>
+  <div class="botton_light">
+    <img src="images/Group 79 — копия.svg" alt="">
+  </div>
+  <div class="indicator">
+    <img src="images/Group2.svg" alt="">
+  </div>
+  <div class="play">
+    <img id="play1"src="images/Group 89.svg" alt="">
+    <img id="play1"src="images/Group 88.svg" alt="">
+    <img id="play1"src="images/Group 87.svg" alt="">
+  </div>
+  <div class="lights">
+    <!-- <img src="images/Frame 25.svg" alt=""> -->
+  </div>
+  <div class="screen">
+    <img src="images/Group 82.svg" alt="">
+    <div class="numbers"></div>
+  </div>
+  <div class="plus-minus">
+      <img id="plus"src="images/Group 86.svg" alt="">
+      <img id="minus"src="images/Group 85.svg" alt="">
+  </div>
+  <div class="circle1">
+    <div class="circle-botton">
+      <img src="images/Group 91.svg" alt="">
+    </div>
+    <div class="points">
+      <img src="images/Group 92.svg" alt="">
+    </div>
+  </div>
+  <div class="circle2">
+    <div class="circle-botton2">
+      <img src="images/Group 94.svg" alt="">
+    </div>
+    <div class="points2">
+      <img src="images/Group 93.svg" alt="">
+    </div>
   </div>
 </div>
+
+<div class="stroke">
+  <div align="center" class="title1">
+    <p>панель управления</p>
+  </div>
+</div>
+
+<div class="stroke2">
+  <div class="title2">
+    <p align="center" >внешние характеристики</p>
+  </div>
+</div>
+
+
+<div class="smoke1">
+</div>
+<div class="smoke2">
+</div>
+
+
+
 
 </section>
 
