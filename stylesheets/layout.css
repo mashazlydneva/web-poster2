@@ -6,9 +6,9 @@ background-color: #0E259C;
 display: block;
 }
 
-/* .snow{
+.snow{
   position: fixed;
-  margin: -8vh 0 0 0;
+  margin: -2vh 0 0 0;
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -40,16 +40,16 @@ animation: snowfalling 50s infinite;
  animation: snowfalling3 200s infinite;
  display: inline-block;
  position:absolute;
-} */
+}
 
-.snow{
+/* .snow{
   width: 100vw; position: fixed; margin: 0 0 0 0;
   overflow: hidden;
 }
 .snow-img{
   margin:0 0 0 0;
   width:100vw;
-}
+} */
 
 
 
@@ -57,19 +57,18 @@ animation: snowfalling 50s infinite;
   position: fixed;
   margin: 0 0 0 0;
   width: 100vw;
-  height: 45vh;
+  height: 40vh;
 }
 .back {
-  margin-top: -2vh;
-  margin-left: 2vw;
+  width: 96vw;
+  height: 40vh;
+  background-color: #0504CA;
+  border-radius: 40px;
+  border: 7px solid black;
   position: relative;
-  margin: 2vh 0 0 0;
+  margin: 2vh 0 0 1vw;
 }
-.back img{
-  width: 96%;
-  position: relative;
-  margin: 0 0 0 1.5vw;
-}
+
 .bottons{
   position: relative;
   margin: -40vh 0 0 50vw;
@@ -97,20 +96,85 @@ animation: snowfalling 50s infinite;
   width: 10vw;
   margin: 1.5vh 0 0 0;
 }
+.botton_light{
+  display:none;
+  position: relative;
+  width: 10vw;
+}
+
+.indicator{
+  position: relative;
+  width: 18vw;
+  margin: -30vh 0 0 15vw;
+}
+.play{
+  position: relative;
+  width: 25vw;
+  margin: 0vh 0 0 13vw;
+}
+.lights{
+  position: relative;
+  margin: -20vh 0 0 40vw;
+  width: 2.8vw;
+  height: 29vh;
+  background: url('../images/Frame 25.svg');
+  animation: lights 10s steps(1) alternate infinite;
+}
+.screen{
+  position: relative;
+  margin: -25vh 0 0 -41.5vw;
+  width: 10vw;
+}
+.numbers{
+  position: fixed;
+  top:14vh;
+  left: 13vw;
+  width: 3.4vw;
+  height: 11vh;
+  background: url('../images/Frame 26.svg');
+  animation: numbers 10s steps(1) alternate infinite;
+}
+.plus-minus{
+  position: relative;
+  margin: 0vh 0 0 -41vw;
+  width: 20vw;
+}
+.minus{
+  position: relative;
+  margin: -20vh 0 0 20vw;
+}
+
+.circle1{
+  position: relative;
+  margin: -24vh 0 0 -29vw;
+}
+.points{
+  position: relative;
+margin: -8vh 0 0 2vw;
+}
+.circle2{
+  position: relative;
+  margin: 0vh 0 0 -30vw;
+}
+.points2{
+  position: relative;
+  margin: -10.5vh 0 0 3vw;
+}
+
 .bolts{
   position: fixed;
-  top: 5.6vh;
+  top: 5vh;
   width: 90vw;
   height: 40vh;
 }
 .bolt1 img{
   position: fixed;
-  margin: 0vh 0 0 3vw;
+  margin: 0vh 0 0 2vw;
   width: 2vw;
 }
 .bolt2 img{
   position: fixed;
-  margin: 36vh 0 0 3vw;
+  margin: 33vh 0 0 2vw;
   width: 2vw;
 }
 .bolt3 img{
@@ -126,3 +190,69 @@ width: 2vw;
 /* .bolt-logo img{
   width: 50%;
 } */
+
+.stroke{
+  position: fixed;
+  border-radius: 30px;
+  border: 5px solid #FB9333;
+  backface-visibility: hidden;
+  width: 45vw;
+  height: 35vh;
+  top: 6vh;
+  left: 43vw;
+}
+
+.title1{
+  position: fixed;
+  top:2.6vh;
+  left: 59vw;
+  width: 14vw;
+  height: 3vh;
+}
+.title1 p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FB9333;
+  background-color: #0504CA;
+}
+.stroke2{
+  position: fixed;
+  border-radius: 30px;
+  border: 5px solid #FB9333;
+  backface-visibility: hidden;
+  width: 35vw;
+  height: 35vh;
+  top: 6vh;
+  left: 6vw;
+}
+.title2{
+  position: fixed;
+  top:2.6vh;
+  left: 15.5vw;
+  width: 17vw;
+  height: 3vh;
+  align: center;
+}
+.title2 p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FB9333;
+  background-color: #0504CA;
+}
+
+.smoke1{
+  position: relative;
+  margin: 0 0 0 0;
+  width: 17vw;
+  height: 29vh;
+  background: url('../images/Frame 27 1.svg');
+  animation: smoke1 5s steps(1) alternate infinite;
+}
+.smoke2{
+  position: relative;
+  margin: -40vh 0 0 40vw;
+  width: 40vw;
+  height: 50vh;
+  background: url('../images/Frame 28 1.svg');
+  animation: smoke2 5s steps(1) alternate infinite;
+}
