@@ -10,3 +10,130 @@
   0%{top: -1800px;}
   100%{top:900px;}
 }
+
+@keyframes lights {
+  0% {background-position: -50px top;}
+  10% {background-position: -50px top;}
+  25% {background-position: -100px top;}
+  40% {background-position: -200px top;}
+  60% {background-position: -250px top;}
+  80% {background-position: -300px top;}
+  100% {background-position: -350px top;}
+}
+@keyframes numbers {
+  0% {background-position: -60px top;}
+  10% {background-position: -120px top;}
+  25% {background-position: -180px top;}
+  40% {background-position: -240px top;}
+  60% {background-position: -300px top;}
+  80% {background-position: -360px top;}
+  100% {background-position: -420px top;}
+}
+@keyframes smoke1 {
+  0% {background-position: -312.5px top;}
+  1.5% {background-position: -625px top;}
+  3% {background-position: -937.5px top;}
+  4.5% {background-position: -1250px top;}
+  6% {background-position: -1562.5px top;}
+  7.5% {background-position: -1875px top;}
+  9% {background-position: -2187.5px top;}
+  11.5% {background-position: -2500px top;}
+  13% {background-position: -2812.5px top;}
+  14.5% {background-position: -3125px top;}
+  16% {background-position: -3437.5px top;}
+  17.5% {background-position: -3750px top;}
+  19% {background-position: -4062.5px top;}
+  20.5% {background-position: -4375px top;}
+  22% {background-position: -4687.5px top;}
+  23.5% {background-position: -5000px top;}
+  25% {background-position: -5312.5px top;}
+  26.5% {background-position: -5625px top;}
+  28% {background-position: -5937.5px top;}
+  29.5% {background-position: -6250px top;}
+  31% {background-position: -6562.5px top;}
+  32.5% {background-position: -6875px top;}
+  34% {background-position: -7187.5px top;}
+  36.5% {background-position: -7500px top;}
+  38% {background-position: -7812.5px top;}
+  39.5% {background-position: -8125px top;}
+  41% {background-position: -8437.5px top;}
+  42.5% {background-position: -8750px top;}
+  44% {background-position: -9062.5px top;}
+  45.5% {background-position: -9375px top;}
+  47% {background-position: -9687.5px top;}
+  48.5% {background-position: -10000px top;}
+  50% {background-position: -10312.5px top;}
+  51.5% {background-position: -10625px top;}
+  53% {background-position: -10937.5px top;}
+  54.5% {background-position: -11250px top;}
+  56% {background-position: -11562.5px top;}
+  57.5% {background-position: -11875px top;}
+  59% {background-position: -12187.5px top;}
+  60.5% {background-position: -12500px top;}
+  62% {background-position: -12812.5px top;}
+  63.5% {background-position: -13125px top;}
+  65% {background-position: -13437.5px top;}
+  66.5% {background-position: -13750px top;}
+  68% {background-position: -14062.5px top;}
+  69.5% {background-position: -14375px top;}
+  71% {background-position: -14687.5px top;}
+  72.5% {background-position: -15000px top;}
+  74% {background-position: -15312.5px top;}
+  75.5% {background-position: -15625px top;}
+  77% {background-position: -15937.5px top;}
+  78.5% {background-position: -16250px top;}
+  80% {background-position: -16562.5px top;}
+  81.5% {background-position: -16875px top;}
+  83% {background-position: -17187.5px top;}
+  84.5% {background-position: -17500px top;}
+  86% {background-position: -17812.5px top;}
+  87.5% {background-position: -18125px top;}
+  89% {background-position: -18437.5px top;}
+  90.5% {background-position: -18750px top;}
+  92% {background-position: -19062.5px top;}
+  93.5% {background-position: -19375px top;}
+  95% {background-position: -19687.5px top;}
+  96.5% {background-position: -20000px top;}
+}
+@keyframes smoke2 {
+  0% {background-position: -575px top;}
+  2.5% {background-position: -1150px top;}
+  5% {background-position: -1725px top;}
+  7.5% {background-position: -2300px top;}
+  10% {background-position: -2875px top;}
+  12.5% {background-position: -3450px top;}
+  15% {background-position: -4025px top;}
+  17.5% {background-position: -4600px top;}
+  20% {background-position: -5175px top;}
+  22.5% {background-position: -5750px top;}
+  25% {background-position: -6325px top;}
+  27.5% {background-position: -6900px top;}
+  30% {background-position: -7475px top;}
+  32.5% {background-position: -8050px top;}
+  35% {background-position: -8625px top;}
+  37.5% {background-position: -9200px top;}
+  40% {background-position: -9775px top;}
+  42.5% {background-position: -10350px top;}
+  45% {background-position: -10925px top;}
+  47.5% {background-position: -11500px top;}
+  50% {background-position: -12075px top;}
+  52.5% {background-position: -12650px top;}
+  55% {background-position: -13225px top;}
+  57.5% {background-position: -13800px top;}
+  60% {background-position: -14375px top;}
+  62.5% {background-position: -14950px top;}
+  65% {background-position: -15525px top;}
+  67.5% {background-position: -16100px top;}
+  70% {background-position: -16675px top;}
+  72.5% {background-position: -17250px top;}
+  75% {background-position: -17825px top;}
+  77.5% {background-position: -18400px top;}
+  80% {background-position: -18975px top;}
+  82.5% {background-position: -19550px top;}
+  85% {background-position: -20125px top;}
+  87.5% {background-position: -20700px top;}
+  90% {background-position: -21275px top;}
+  92.5% {background-position: -21850px top;}
+  95% {background-position: -22425px top;}
+  100% {background-position: -23000px top;}
+}
