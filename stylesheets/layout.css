@@ -75,26 +75,47 @@ animation: snowfalling 50s infinite;
   width: 10vw;
   height: 42vh;
 }
+
 .botton1 img{
   /* background: url('../images/Rectangle 114.svg') no-repeat; */
   position: relative;
   width: 10vw;
   margin: 0 0 0 0;
 }
+.botton1 p{
+  position: fixed;
+  font-weight: normal;
+  top: 5vh;
+}
 .botton2 img{
   position: relative;
   width: 10vw;
   margin: 1.5vh 0 0 0;
+}
+.botton2 p{
+  position: fixed;
+  font-weight: normal;
+  top: 15vh;
 }
 .botton3 img{
   position: relative;
   width: 10vw;
   margin: 1.5vh 0 0 0;
 }
+.botton3 p{
+  position: fixed;
+  font-weight: normal;
+  top: 23vh;
+}
 .botton4 img{
   position: relative;
   width: 10vw;
   margin: 1.5vh 0 0 0;
+}
+.botton4 p{
+  position: fixed;
+  font-weight: normal;
+  top: 30vh;
 }
 .botton_light{
   display:none;
@@ -184,12 +205,29 @@ margin: -8vh 0 0 2vw;
 }
 .bolt-logo img{
   position: fixed;
-margin: 36vh 0 0 94vw;
+margin: 33vh 0 0 94vw;
 width: 2vw;
 }
-/* .bolt-logo img{
-  width: 50%;
-} */
+
+.polzunok1{
+  position: relative;
+  margin: -27vh 0 0 -20vw;
+}
+.circle-polzunok1{
+  position: absolute;
+  top: 8vh;
+  left: 1.5vw;
+}
+
+.polzunok2{
+  position: relative;
+  margin: -5vh 0 0 15vw;
+}
+.circle-polzunok2{
+  position: absolute;
+  top: 0vh;
+  left: 1.5vw;
+}
 
 .stroke{
   position: fixed;
@@ -225,6 +263,10 @@ width: 2vw;
   top: 6vh;
   left: 6vw;
 }
+.merzlota{
+  position: relative;
+  margin: -31vh 0 0 2.2vw;
+}
 .title2{
   position: fixed;
   top:2.6vh;
@@ -255,4 +297,25 @@ width: 2vw;
   height: 50vh;
   background: url('../images/Frame 28 1.svg');
   animation: smoke2 5s steps(1) alternate infinite;
+}
+
+.zavod{
+  position: fixed;
+  top:40vh;
+  width: 100vw;
+  height: 50vh;
+}
+.blok1 img{
+  position: relative;
+margin: 0 0 0 0;
+}
+.blok2 img{
+  position: relative;
+  width: 100%;
+  margin: -20vh 0 0 20vw;
+}
+.blok3{
+  position: relative;
+  top: 0;
+  left: 20vw;
 }
