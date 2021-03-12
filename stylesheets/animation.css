@@ -10,7 +10,14 @@
   0%{top: -1800px;}
   100%{top:900px;}
 }
-
+@keyframes indicator {
+  0% {background-position: 0px top;}
+  20% {background-position: -330px top;}
+  40% {background-position: -660px top;}
+  60% {background-position: -990px top;}
+  80% {background-position: -1320px top;}
+  100% {background-position: -1650px top;}
+}
 @keyframes lights {
   0% {background-position: -50px top;}
   10% {background-position: -50px top;}
@@ -21,13 +28,19 @@
   100% {background-position: -350px top;}
 }
 @keyframes numbers {
-  0% {background-position: -60px top;}
-  10% {background-position: -120px top;}
-  25% {background-position: -180px top;}
-  40% {background-position: -240px top;}
-  60% {background-position: -300px top;}
-  80% {background-position: -360px top;}
-  100% {background-position: -420px top;}
+  0% {background-position: 0px top;}
+  7.5% {background-position: -60px top;}
+  15% {background-position: -120px top;}
+  22.5% {background-position: -180px top;}
+  30% {background-position: -240px top;}
+  37.5% {background-position: -300px top;}
+  45% {background-position: -360px top;}
+  52.5% {background-position: -420px top;}
+  60% {background-position: -480px top;}
+  67.5% {background-position: -540px top;}
+  75% {background-position: -600px top;}
+  82.5% {background-position: -660px top;}
+  100%{background-position: -720px top;}
 }
 @keyframes smoke1 {
   0% {background-position: -312.5px top;}

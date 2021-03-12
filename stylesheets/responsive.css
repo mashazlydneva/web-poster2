@@ -1,1 +1,273 @@
+@media all and (min-width: 1440px) and (max-width: 1679px) {
+    /* pro 15 */
+  .panel{
+    width: 100vw;
+    margin: 0 0 0 0;
+  }
+  .lights{
+    width: 3.3vw;
+  }
+.footter{
+  top: 20vh;
+}
+.indicator{
+transform: scale(1);
+width: 23vw;
+left: 61.5vw;
+top: 11vh;
+}
+.botton1, .botton2, .botton3, .botton4{
+  transform: scale(1.2);
+  margin-top: 1vh;
+}
+.play{
+  transform: scale(1.1);
+  left: 62.3vw;
+  top: 19vh;
+}
+.polzunok2{
+  left: 62vw;
+}
+.circle-polzunok1{
+  left: 1.75vw;
+}
+.title1 p{
+  font-size: 18px;
+}
+.title2 p{
+  font-size: 18px;
+}
+.title1{
+  width: 16vw;
+  top: 2.1vh;
+}
+.title2{
+  width: 20vw;
+  top: 2.1vh;
+}
+.points{
+  margin: -8vh 0 0 3vw;
+}
+.points2{
+  margin: -11vh 0 0 3.8vw;
+}
+.numbers{
+  width: 4vw;
+}
+.pm{
+  top: 29vh;
+  left: 9.2vw;
+}
+  .zavod{
+    width: 100vw;
+    margin: 0 0 0 0;
+  }
+   }
 
+   @media all and (min-width: 1280px) and (max-width: 1440px) {
+     .botton1, .botton2, .botton3, .botton4{
+       transform: scale(1.4);
+       margin-top: 1.6vh;
+     }
+     .botton1 p, .botton2 p, .botton3 p, .botton4 p{
+       font-size: 13px;
+     }
+     .footter{
+       top: 19vh;
+       width: 28vh;
+       left: 85vw;
+     }
+     .lights{
+       width: 3.7vw;
+     }
+     .indicator{
+     transform: scale(0.9);
+     width: 25.7vw;
+     left: 61.5vw;
+     top: 11vh;
+     }
+     .play{
+       transform: scale(1);
+       left: 62.3vw;
+       top: 19vh;
+     }
+     .play2{
+       left: 1vw;
+     }
+     .play3{
+       left: 2.1vw;
+     }
+     .polzunok2{
+       transform: scale(0.85);
+       left: 62vw;
+       top: 35vh;
+     }
+     .polzunok1{
+       transform: scale(0.95);
+       left: 31vw;
+       top: 12vh;
+     }
+     .circle-polzunok1{
+       left: 1.75vw;
+     }
+     .title1 p{
+       font-size: 18px;
+     }
+     .title2 p{
+       font-size: 18px;
+     }
+     .title1{
+       width: 16vw;
+       top: 2.1vh;
+     }
+     .title2{
+       width: 20vw;
+       top: 2.1vh;
+     }
+     .points{
+       margin: -8vh 0 0 3vw;
+     }
+     .points2{
+       margin: -11vh 0 0 3.8vw;
+     }
+     .screen{
+       transform: scale(0.9);
+       top: 11.6vh;
+       left: 8vw;
+     }
+     .pm{
+       left: 8.5vw;
+       top:27.5vh;
+     }
+     .screen p{
+       width: 10vw;
+     }
+     .numbers{
+       top: 2vh;
+       left: 6vw;
+       width: 5vw;
+     }
+   }
+
+   @media all and (min-width: 1024px) and (max-width: 1280px) {
+     .panel{
+       width: 100vw;
+       margin: 0 0 0 0;
+     }
+     .back{
+       height: 30vh;
+     }
+     .stroke, .stroke2{
+       height: 25vh;
+     }
+     .stroke2{
+       width: 40vw;
+     }
+     .stroke{
+       width: 40vw;
+       left: 48vw;
+     }
+     .lights{
+       top: 4vh;
+       width: 5.2vw;
+       transform: scale(0.8);
+     }
+   .footter{
+     top: 14vh;
+     left: 83vw;
+     width: 25vw;
+   }
+   .footter p{
+        font-size: 11px;
+   }
+   .indicator{
+   transform: scale(0.7);
+   width: 32vw;
+   left: 60vw;
+   top: 8vh;
+   }
+   .botton1, .botton2, .botton3, .botton4{
+     transform: scale(1.2);
+     margin-top: 0.5vh;
+   }
+   .bottons{
+     left: 10vw;
+   }
+   .botton1 p, .botton2 p, .botton3 p, .botton4 p{
+     font-size: 13px;
+   }
+   .play {
+     transform: scale(0.7);
+     left: 60.5vw;
+     top: 14vh;
+   }
+   .play2{
+     left: 4vw;
+   }
+   .play3{
+    left: 8vw;
+   }
+   .polzunok2 {
+     left: 60vw;
+     top: 26vh;
+     transform: scale(0.7);
+   }
+   .polzunok1{
+     transform: scale(0.8);
+     left: 33vw;
+     top: 6vh;
+   }
+   .circle1{
+     top: 8vh;
+     transform: scale(0.8);
+   }
+   .circle2{
+     top: 17vh;
+     transform: scale(0.8);
+   }
+   .circle-polzunok1{
+     left: 1.75vw;
+   }
+   .title1 p{
+     font-size: 14px;
+   }
+   .title2 p{
+     font-size: 14px;
+   }
+   .title1{
+     width: 16vw;
+     top: 2.1vh;
+   }
+   .title2{
+     width: 20vw;
+     top: 2.1vh;
+   }
+   .points{
+     margin: -8vh 0 0 4vw;
+   }
+   .points2{
+     margin: -11vh 0 0 4.7vw;
+   }
+   .screen{
+     transform: scale(0.7);
+     top: 8vh;
+     left: 8vw;
+   }
+   .pm{
+     left: 7vw;
+     top:20vh;
+     transform: scale(0.8);
+   }
+   .screen p{
+     width: 14vw;
+   }
+   .numbers{
+     top: 2vh;
+     left: 6vw;
+     width: 7vw;
+   }
+     .zavod{
+       width: 100vw;
+       margin: 0 0 0 0;
+     }
+  }

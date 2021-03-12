@@ -54,7 +54,7 @@ animation: snowfalling 50s infinite;
 
 
 .panel{
-  position: fixed;
+  position: relative;
   margin: 0 0 0 0;
   width: 100vw;
   height: 40vh;
@@ -70,8 +70,8 @@ animation: snowfalling 50s infinite;
 }
 
 .bottons{
-  position: relative;
-  margin: -40vh 0 0 50vw;
+  position: fixed;
+  margin: 1vh 0 0 41vw;
   width: 10vw;
   height: 42vh;
 }
@@ -85,37 +85,37 @@ animation: snowfalling 50s infinite;
 .botton1 p{
   position: fixed;
   font-weight: normal;
-  top: 5vh;
+  margin: -5vh 0 0 2.1vw;
 }
 .botton2 img{
   position: relative;
   width: 10vw;
-  margin: 1.5vh 0 0 0;
+  margin: 1vh 0 0 0;
 }
 .botton2 p{
   position: fixed;
   font-weight: normal;
-  top: 15vh;
+  margin: -5vh 0 0 3.6vw;
 }
 .botton3 img{
   position: relative;
   width: 10vw;
-  margin: 1.5vh 0 0 0;
+  margin: 1vh 0 0 0;
 }
 .botton3 p{
   position: fixed;
   font-weight: normal;
-  top: 23vh;
+  margin: -5vh 0 0 3.6vw;
 }
 .botton4 img{
   position: relative;
   width: 10vw;
-  margin: 1.5vh 0 0 0;
+  margin: 1vh 0 0 0;
 }
 .botton4 p{
   position: fixed;
   font-weight: normal;
-  top: 30vh;
+  margin: -5vh 0 0 3.6vw;
 }
 .botton_light{
   display:none;
@@ -124,58 +124,128 @@ animation: snowfalling 50s infinite;
 }
 
 .indicator{
-  position: relative;
-  width: 18vw;
-  margin: -30vh 0 0 15vw;
+  background: url('../images/Frame 29.svg') no-repeat;
+  position: fixed;
+  width: 18.5vw;
+  height: 7.5vh;
+  top:12.5vh;
+  left: 64vw;
+  animation: indicator 10s steps(1) alternate infinite;
+  transform: scale(1.2);
+}
+.indicator p{
+  font-size: 16px;
+    position: fixed;
+    margin: -3vh 0 0 6vw;
+    color: #FFFFFF;
 }
 .play{
-  position: relative;
+  position: fixed;
   width: 25vw;
-  margin: 0vh 0 0 13vw;
+left: 63.5vw;
+top: 19.5vh;
+transform: scale(1.15);
+}
+.play1{
+  position: fixed;
+  margin: 0 0 0 0vw;
+}
+.play2{
+  position: fixed;
+  margin: 0 0 0 7vw;
+}
+.play3{
+  position: fixed;
+  margin: 0 0 0 14vw;
+}
+.play1 p{
+  position: fixed;
+  margin: 11vh 0 0 2vw;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.play2 p{
+  position: fixed;
+  margin: 11vh 0 0 2vw;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.play3 p{
+  position: fixed;
+  margin: 11vh 0 0 1.5vw;
+  color: #FFFFFF;
+  font-size: 16px;
 }
 .lights{
-  position: relative;
-  margin: -20vh 0 0 40vw;
+  position: fixed;
+  top: 9vh;
+  left: 90vw;
   width: 2.8vw;
   height: 29vh;
   background: url('../images/Frame 25.svg');
   animation: lights 10s steps(1) alternate infinite;
 }
 .screen{
-  position: relative;
-  margin: -25vh 0 0 -41.5vw;
-  width: 10vw;
+  position: fixed;
+top: 13vh;
+left: 9vw;
+ width: 10vw;
+}
+.screen p{
+  position: fixed;
+  margin: -4vh 0 0 1vw;
+  color: #FFFFFF;
 }
 .numbers{
   position: fixed;
-  top:14vh;
+  top:16vh;
   left: 13vw;
   width: 3.4vw;
   height: 11vh;
   background: url('../images/Frame 26.svg');
-  animation: numbers 10s steps(1) alternate infinite;
+  /* animation: numbers 10s steps(1) alternate infinite; */
 }
-.plus-minus{
+.pm{
+  position: fixed;
+left: 9vw;
+top: 30vh;
+ width: 20vw;
+  z-index: 100;
+}
+.plus{
   position: relative;
-  margin: 0vh 0 0 -41vw;
-  width: 20vw;
+  margin: 0 0 0 0;
+  z-index: 100;
 }
 .minus{
   position: relative;
   margin: -20vh 0 0 20vw;
+  z-index: 100;
 }
 
 .circle1{
-  position: relative;
-  margin: -24vh 0 0 -29vw;
+  position: fixed;
+top: 12vh;
+left: 23vw;
+}
+.circle1 p{
+  position: fixed;
+  margin: -3vh 0 0 1vw;
+  color: #FFFFFF;
 }
 .points{
   position: relative;
 margin: -8vh 0 0 2vw;
 }
 .circle2{
-  position: relative;
-  margin: 0vh 0 0 -30vw;
+  position: fixed;
+  left: 22vw;
+  top: 25vh;
+}
+.circle2 p{
+  position: fixed;
+  margin: -2vh 0 0 1.9vw;
+  color: #FFFFFF;
 }
 .points2{
   position: relative;
@@ -184,7 +254,8 @@ margin: -8vh 0 0 2vw;
 
 .bolts{
   position: fixed;
-  top: 5vh;
+  top: 4.2vh;
+  left: 0.8vw;
   width: 90vw;
   height: 40vh;
 }
@@ -210,8 +281,13 @@ width: 2vw;
 }
 
 .polzunok1{
-  position: relative;
-  margin: -27vh 0 0 -20vw;
+  position: fixed;
+top: 12vh;
+left: 32vw;}
+.polzunok1 p{
+  position: fixed;
+  margin: -30vh 0 0 1.7vw;
+  color: #FFFFFF;
 }
 .circle-polzunok1{
   position: absolute;
@@ -220,9 +296,11 @@ width: 2vw;
 }
 
 .polzunok2{
-  position: relative;
-  margin: -5vh 0 0 15vw;
+  position: fixed;
+top: 36.6vh;
+left: 64vw;
 }
+
 .circle-polzunok2{
   position: absolute;
   top: 0vh;
@@ -236,7 +314,7 @@ width: 2vw;
   backface-visibility: hidden;
   width: 45vw;
   height: 35vh;
-  top: 6vh;
+  top: 5vh;
   left: 43vw;
 }
 
@@ -260,13 +338,13 @@ width: 2vw;
   backface-visibility: hidden;
   width: 35vw;
   height: 35vh;
-  top: 6vh;
+  top: 5vh;
   left: 6vw;
 }
 .merzlota{
-  position: relative;
-  margin: -31vh 0 0 2.2vw;
-}
+  position: fixed;
+top: 14.5vh;
+left: 2.5vw;}
 .title2{
   position: fixed;
   top:2.6vh;
@@ -280,6 +358,19 @@ width: 2vw;
   font-weight: bold;
   color: #FB9333;
   background-color: #0504CA;
+}
+.footter{
+  position: fixed;
+  top:17vh;
+  left: 86.2vw;
+  width: 17vw;
+  height: 3vh;
+  transform: rotate(270deg);
+}
+.footter p{
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
 }
 
 .smoke1{
@@ -300,22 +391,25 @@ width: 2vw;
 }
 
 .zavod{
-  position: fixed;
-  top:40vh;
+  position: relative;
+  margin: 0 0 0 0;
   width: 100vw;
   height: 50vh;
 }
-.blok1 img{
-  position: relative;
-margin: 0 0 0 0;
+.blok1 {
+  position: fixed;
+  margin: 0 0 0 -1vw;
 }
-.blok2 img{
-  position: relative;
+.blok2 {
+  position: fixed;
   width: 100%;
-  margin: -20vh 0 0 20vw;
+  margin: 5vh 0 0 10vw;
 }
 .blok3{
-  position: relative;
-  top: 0;
-  left: 20vw;
+  position: fixed;
+  margin: -12vh 0 0 20vw;
+}
+.blok4{
+  position: fixed;
+  margin: -12vh 0 0 29vw;
 }
