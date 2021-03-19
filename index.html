@@ -17,15 +17,64 @@ $(document). ready(function(){
       "background-position": function(index, value){
         return parseFloat (value) +60;
       }
-    })
+    });
+    $(function () {
+      let count = 5;
+      $('#plus').click(function () {
+        count += 1;
+        if (count <= 5) {
+          $(this).addClass('blok5');
+        }
+      });
+    });
+    // counter += 1;
 });
 $("#minus").click(function(){
    $(".numbers").css({
      "background-position": function(index, value){
        return parseFloat (value) -60;
      }
+   });
+   counter -= 1;
+
+});
+
+$(".polzunok1").click(function(){
+   $(".circle-polzunok1").css({
+     top: function(index, value) {
+       return parseFloat (value) +39;
+     }
    })
 });
+
+$(".circle1").click(function(){
+   $(this).css({
+     rotate: function(index, value) {
+       return parseFloat (value) +39;
+     }
+   })
+});
+
+$(".botton4").click(function(){
+   $(".snow1 img, .snow2 img, .snow3 img").css("display", "none")
+   $("#botton_light4").css("visibility", "visible")
+});
+
+$(".botton3").click(function(){
+   $(".smoke1, .smoke2, .smoke1-2").css("display", "none")
+   $("#botton_light3").css("visibility", "visible")
+});
+
+$(".botton2").click(function(){
+		$(".window1, .window3, .window2, .window3, .window4, .window5, .window6").css("background","grey");
+    $("#botton_light2").css("visibility", "visible")
+	});
+
+  $(".play3").click(function(){
+  		$(".window1, .window3, .window2, .window3, .window4, .window5, .window6").css("background","radial-gradient(white, #ffda6c)");
+      $(".smoke1, .smoke2, .smoke1-2").css("animation-play-state", "running");
+  	});
+
 });
 
     </script>
@@ -45,6 +94,12 @@ $("#minus").click(function(){
 <!-- <div id="snow">
   <img id="snow_img"src="images/9078.png" style="width: 100vw; height:100vh;">
 </div> -->
+<div class="smoke1">
+</div>
+<div class="smoke1-2">
+</div>
+<div class="smoke2">
+</div>
 
 <section class="panel">
   <div class="back">
@@ -60,6 +115,7 @@ $("#minus").click(function(){
     <div class="title2">
       <p align="center" >внешние характеристики</p>
     </div>
+</div>
 
 <div class="bolts">
   <div class="bolt1">
@@ -84,19 +140,20 @@ $("#minus").click(function(){
     </div>
     <div class="botton2">
       <img src="images/Group 79.svg" alt="">
+      <img id="botton_light2"src="images/Group 79 — копия.svg" alt="">
       <p>свет</p>
     </div>
     <div class="botton3">
       <img src="images/Group 79.svg" alt="">
+      <img id="botton_light3"src="images/Group 79 — копия.svg" alt="">
       <p>дым</p>
     </div>
     <div class="botton4">
-      <img src="images/Group 79.svg" alt="">
+      <img id="botton"src="images/Group 79.svg" alt="">
+      <img id="botton_light4"src="images/Group 79 — копия.svg" alt="">
       <p>снег</p>
     </div>
-    <div class="botton_light">
-      <img src="images/Group 79 — копия.svg" alt="">
-    </div>
+
   </div>
 
   <div class="indicator">
@@ -169,7 +226,7 @@ $("#minus").click(function(){
   <img src="images/Frame.svg" alt="">
 </div>
 
-</div>
+
 <div class="footter">
   <p>ЗЛЫДНЕВА МАРИЯ, 2021 ГОД</p>
 </div>
@@ -177,12 +234,39 @@ $("#minus").click(function(){
 </section>
 
 <section class="zavod">
-  <div class="smoke1">
+  <div class="tube1">
+    <img src="images/Rectangle 69.svg" alt="">
   </div>
-  <div class="smoke2">
+  <div class="tube2">
+    <img src="images/Rectangle 69.svg" alt="">
   </div>
-
+  <div class="tube3">
+    <img src="images/Rectangle 69.svg" alt="">
+  </div>
+  <div class="tube4">
+    <img src="images/Rectangle 78.svg" alt="">
+  </div>
+  <div class="tube5">
+    <img src="images/Group 99.svg" alt="">
+  </div>
+  <div class="tube6">
+    <img src="images/Rectangle 69.svg" alt="">
+  </div>
+  <div class="tube7">
+    <img src="images/Rectangle 69.svg" alt="">
+  </div>
+  <div class="tube8">
+    <img src="images/Rectangle 69.svg" alt="">
+  </div>
+  <div class="tube9">
+    <img src="images/Rectangle 69.svg" alt="">
+  </div>
+  <div class="blok5">
+  </div>
   <div class="blok1">
+    <div class="window1"></div>
+    <div class="window2"></div>
+    <div class="window3"></div>
     <img src="images/Rectangle 84.svg" alt="">
   </div>
   <div class="blok2">
@@ -194,10 +278,57 @@ $("#minus").click(function(){
   <div class="blok4">
     <img src="images/Rectangle 68.svg" alt="">
   </div>
-
+  <div class="blok6">
+    <img src="images/Rectangle 84.svg" alt="">
+  </div>
+  <div class="blok7">
+    <img src="images/Rectangle 66.svg" alt="">
+  </div>
+  <div class="blok8">
+    <img src="images/Rectangle 84.svg" alt="">
+  </div>
+  <div class="blok9">
+    <div class="window4"></div>
+    <div class="window5"></div>
+    <div class="window6"></div>
+    <img src="images/Rectangle 66.svg" alt="">
+  </div>
+  <div class="blok10">
+  </div>
+  <div class="blok11">
+  </div>
+  <div class="blok12">
+  </div>
+  <div class="blok13">
+  </div>
+  <div class="blok14">
+  </div>
+  <div class="light1">
+    <img src="images/Group 77.svg" alt="">
+  </div>
+  <div class="light2">
+    <img src="images/Group 76.svg" alt="">
+  </div>
+  <div class="light3">
+    <img src="images/Group 100.svg" alt="">
+  </div>
 
 </section>
 
+    <div class="back2">
+    </div>
+    <div class="play21">
+      <p>play</p>
+      <img src="images/Group 89.svg" alt="">
+    </div>
+    <div class="play22">
+      <p>pause</p>
+      <img src="images/Group 88.svg" alt="">
+    </div>
+    <div class="play23">
+      <p>restart</p>
+      <img src="images/Group 87.svg" alt="">
+    </div>
 
 
 
