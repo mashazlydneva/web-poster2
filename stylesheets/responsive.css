@@ -64,7 +64,7 @@ top: 11vh;
   }
    }
 
-   @media all and (min-width: 1280px) and (max-width: 1440px) {
+   @media all and (min-width: 1280px) and (max-width: 1439px) {
      .botton1, .botton2, .botton3, .botton4{
        transform: scale(1.4);
        margin-top: 1.6vh;
@@ -149,7 +149,7 @@ top: 11vh;
      }
    }
 
-   @media all and (min-width: 1024px) and (max-width: 1280px) {
+   @media all and (min-width: 1024px) and (max-width: 1279px) {
      .panel{
        width: 100vw;
        margin: 0 0 0 0;
@@ -161,7 +161,8 @@ top: 11vh;
        height: 25vh;
      }
      .stroke2{
-       width: 40vw;
+       width: 38vw;
+       left: 7.5vw;
      }
      .stroke{
        width: 40vw;
@@ -173,8 +174,8 @@ top: 11vh;
        transform: scale(0.8);
      }
    .footter{
-     top: 14vh;
-     left: 83vw;
+     top: 11vh;
+     left: 82.5vw;
      width: 25vw;
    }
    .footter p{
@@ -190,8 +191,8 @@ top: 11vh;
      transform: scale(1.2);
      margin-top: 0.5vh;
    }
-   .bottons{
-     left: 10vw;
+   .big-bottons{
+     left: 52vw;
    }
    .botton1 p, .botton2 p, .botton3 p, .botton4 p{
      font-size: 13px;
@@ -266,8 +267,331 @@ top: 11vh;
      left: 6vw;
      width: 7vw;
    }
+   .bolt2 img, .bolt-logo img{
+     top: -4vh;
+   }
+   .bolt1 img, .bolt2 img{
+     left: 2vw;
+   }
+   .merzlota{
+     top: 9vh;
+     transform: scale(0.7);
+   }
      .zavod{
        width: 100vw;
        margin: 0 0 0 0;
      }
   }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    .panel{
+      width: 100vw;
+      margin: 0 0 0 0;
+    }
+    .back{
+      height: 30vh;
+    }
+    .back2{
+      top:10vh;
+    }
+    .stroke, .stroke2{
+      height: 25vh;
+    }
+    .stroke2{
+      width: 54vw;
+      left: 8vw;
+    }
+    .stroke{
+      width: 25vw;
+      left: 66vw;
+    }
+    .lights{
+      display: none;
+    }
+  .footter{
+    top: 14vh;
+    left: 81.5vw;
+    width: 25vw;
+  }
+  .footter p{
+       font-size: 11px;
+  }
+  .indicator{
+  transform: scale(0.5);
+  width: 43vw;
+  left: 0vw;
+  top: 24vh;
+  }
+  .botton1, .botton2, .botton3, .botton4{
+    transform: scale(1.7);
+    margin-top: 1.2vh;
+  }
+  .big-bottons{
+    left: 74vw;
+  }
+  .botton1 p, .botton2 p, .botton3 p, .botton4 p{
+    font-size: 9px;
+    top: 6vh;
+  }
+  .botton1 p{
+    top: 5vh;
+  }
+  .play {
+    display: none
+  }
+  .play21 {
+    transform: scale(0.7);
+    top: 80vh;
+    left: 33vw;
+  }
+  .play22 {
+    transform: scale(0.7);
+    top: 80vh;
+    left: 43vw;
+  }
+  .play23 {
+    transform: scale(0.7);
+    top: 80vh;
+    left: 53vw;
+  }
+
+  .polzunok2 {
+    display: none;
+  }
+  .polzunok1{
+    transform: scale(0.8);
+    left: 46vw;
+    top: 6vh;
+  }
+  .circle1{
+    top: 8vh;
+    left: 35vw;
+    transform: scale(0.8);
+  }
+  .circle2{
+    top: 17vh;
+    left: 33vw;
+    transform: scale(0.8);
+  }
+  .circle-polzunok1{
+    left: 3.4vw;
+  }
+  .title1 p{
+    font-size: 14px;
+  }
+  .title2 p{
+    font-size: 14px;
+  }
+  .title1{
+    width: 24vw;
+    top: 2.1vh;
+  }
+  .title2{
+    width: 25vw;
+    top: 2.1vh;
+  }
+  .points{
+    margin: -8vh 0 0 4vw;
+  }
+  .points2{
+    margin: -11vh 0 0 4.7vw;
+  }
+  .screen{
+    transform: scale(0.66);
+    top: 6vh;
+    left: 12.5vw;
+  }
+  .pm{
+    left: 10vw;
+    width: 28vw;
+    top:17vh;
+    transform: scale(0.7);
+  }
+  .screen p{
+    width: 19vw;
+  }
+  .numbers{
+    top: 2vh;
+    left: 10vw;
+    width: 7.6vw;
+  }
+  .bolt2 img, .bolt-logo img{
+    top: -4vh;
+  }
+  .bolt1 img, .bolt2 img{
+    left: 2vw;
+  }
+  .merzlota{
+    top: 9vh;
+    transform: scale(0.7);
+  }
+    .zavod{
+      width: 100vw;
+      margin: -10vh 0 0 0;
+    }
+ }
+ @media all and (min-width: 320px) and (max-width: 767px) {
+   .panel{
+     width: 100vw;
+     margin: 0 0 0 0;
+   }
+   .back{
+     height: 35vh;
+     border-radius: 15px;
+   }
+   .back2{
+     top:10vh;
+     left: 0;
+     border-radius: 15px;
+   }
+   .stroke, .stroke2{
+     height: 25vh;
+     border-radius: 15px;
+   }
+   .stroke2{
+     width: 50vw;
+     left: 10vw;
+     height: 30vh;
+   }
+   .stroke{
+     width: 27vw;
+     left: 64vw;
+     height: 30vh;
+   }
+   .lights{
+     display: none;
+   }
+   .footter{
+   top: 15vh;
+   left: 76.5vw;
+   width: 35vw;
+   }
+   .footter p{
+      font-size: 12px;
+   }
+   .indicator{
+   transform: scale(0.4);
+   width: 60vw;
+   left: 49vw;
+   top: 28vh;
+   }
+   .botton2, .botton3, .botton4{
+   transform: scale(2.5);
+   margin-top: 3vh;
+   }
+   .botton1{
+     display: none;
+   }
+   .big-bottons{
+   left: 73.5vw;
+   top: 5.5vh;
+   }
+   .botton1 p, .botton2 p, .botton3 p, .botton4 p{
+   font-size: 9px;
+   top: 6vh;
+   }
+   .botton1 p{
+   top: 5vh;
+   }
+   .play {
+   display: none
+   }
+   .play21 {
+   transform: scale(0.7);
+   top: 80vh;
+   left: 27vw;
+   }
+   .play22 {
+   transform: scale(0.7);
+   top: 80vh;
+   left: 43vw;
+   }
+   .play23 {
+   transform: scale(0.7);
+   top: 80vh;
+   left: 59vw;
+   }
+
+   .polzunok2 {
+   display: none;
+   }
+   .polzunok1{
+   transform: scale(0.6);
+   left: 40vw;
+   top: 3vh;
+   }
+   .circle1{
+   top: 26vh;
+   left: 17vw;
+   transform: scale(1.2);
+   }
+   .circle2{
+   top: 24vh;
+   left: 37vw;
+   transform: scale(0.9);
+   }
+   .circle-polzunok1{
+   left: 3.4vw;
+   }
+   .title1 p{
+   font-size: 12px;
+   }
+   .title2 p{
+   font-size: 12px;
+   }
+   .title1{
+   width: 25vw;
+   top: 2.1vh;
+   left:67.5vw;
+   }
+   .title2{
+   width: 38vw;
+   top: 2.1vh;
+   }
+   .points{
+   margin: -7.4vh 0 0 9vw;
+   transform: scale(0.8);
+   }
+   .points2{
+   margin: -11vh 0 0 9vw;
+   }
+   .screen{
+   transform: scale(0.5);
+   top: 5vh;
+   left: 17vw;
+    }
+    .screen img{
+    transform: scaleX(1.5);
+     }
+   .pm{
+   left: 11.5vw;
+   width: 35vw;
+   top:16vh;
+   transform: scale(0.6);
+   }
+   .screen p{
+   width: 29vw;
+   font-size: 20px;
+   }
+   .numbers{
+   top: 2vh;
+   left: 10vw;
+   width: 11.8vw;
+   }
+   .bolt2 img, .bolt-logo img{
+   top: -3vh;
+   }
+   .bolt1 img, .bolt2 img{
+   left: 2vw;
+   }
+  .bolts img{
+    transform: scale(1.8);
+  }
+   .merzlota{
+   top: 9vh;
+   transform: scale(0.7);
+   }
+   .zavod{
+     width: 100vw;
+     margin: -10vh 0 0 0;
+   }
+ }
