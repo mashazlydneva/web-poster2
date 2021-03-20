@@ -1,3 +1,74 @@
+@media all and (min-width: 1680px) and (max-width: 1700px) {
+  .panel{
+    width: 100vw;
+    margin: 0 0 0 0;
+  }
+  .lights{
+    width: 3.3vw;
+  }
+.footter{
+  top: 20vh;
+}
+.indicator{
+transform: scale(1);
+width: 23vw;
+left: 61.5vw;
+top: 11vh;
+}
+.botton1, .botton2, .botton3, .botton4{
+  transform: scale(1.2);
+  margin-top: 1vh;
+}
+.play{
+  transform: scale(1.1);
+  left: 62.3vw;
+  top: 19vh;
+}
+
+.polzunok2{
+  left: 62vw;
+}
+.circle-polzunok1{
+  left: 1.75vw;
+}
+.title1 p{
+  font-size: 18px;
+}
+.title2 p{
+  font-size: 18px;
+}
+.title1{
+  width: 16vw;
+  top: 2.1vh;
+}
+.title2{
+  width: 20vw;
+  top: 2.1vh;
+}
+.points{
+  margin: -8vh 0 0 3vw;
+}
+.points2{
+  margin: -11vh 0 0 3.8vw;
+}
+.numbers{
+  width: 4vw;
+}
+.pm{
+  top: 29vh;
+  left: 9.2vw;
+}
+  .zavod{
+    width: 100vw;
+    margin: 0 0 0 0;
+  }
+   }
+   @media all and (min-width: 1680px) and (max-width: 1800px){
+     .play21, .play22, .play23{
+       display: none;
+     }
+   }
+
 @media all and (min-width: 1440px) and (max-width: 1679px) {
     /* pro 15 */
   .panel{
@@ -24,6 +95,9 @@ top: 11vh;
   transform: scale(1.1);
   left: 62.3vw;
   top: 19vh;
+}
+.play21, .play22, .play23{
+  display: none;
 }
 .polzunok2{
   left: 62vw;
@@ -96,6 +170,9 @@ top: 11vh;
      }
      .play3{
        left: 2.1vw;
+     }
+     .play21, .play22, .play23{
+       display: none;
      }
      .polzunok2{
        transform: scale(0.85);
@@ -207,6 +284,9 @@ top: 11vh;
    }
    .play3{
     left: 8vw;
+   }
+   .play21, .play22, .play23{
+     display: none;
    }
    .polzunok2 {
      left: 60vw;
@@ -340,18 +420,31 @@ top: 11vh;
   }
   .play21 {
     transform: scale(0.7);
-    top: 80vh;
-    left: 33vw;
+    top: 84vh;
+    left: 30vw;
   }
+
   .play22 {
     transform: scale(0.7);
-    top: 80vh;
-    left: 43vw;
+    top: 84vh;
+    left: 45vw;
   }
   .play23 {
     transform: scale(0.7);
-    top: 80vh;
-    left: 53vw;
+    top: 84vh;
+    left:60vw;
+  }
+  .play22 p {
+  top: 10vh;
+  left: 3.8vw;
+  }
+  .play21 p {
+  top: 10vh;
+  left: 4.9vw;
+  }
+  .play23 p {
+  top: 10vh;
+  left: 3.8vw;
   }
 
   .polzunok2 {
@@ -384,16 +477,18 @@ top: 11vh;
   .title1{
     width: 24vw;
     top: 2.1vh;
+    left: 55vw;
   }
   .title2{
-    width: 25vw;
+    width: 29vw;
     top: 2.1vh;
+    left: 23vw;
   }
   .points{
-    margin: -8vh 0 0 4vw;
+    margin: -8vh 0 0 5.5vw;
   }
   .points2{
-    margin: -11vh 0 0 4.7vw;
+    margin: -11vh 0 0 6.5vw;
   }
   .screen{
     transform: scale(0.66);
@@ -461,7 +556,7 @@ top: 11vh;
      display: none;
    }
    .footter{
-   top: 15vh;
+   top: 18vh;
    left: 76.5vw;
    width: 35vw;
    }
@@ -469,10 +564,15 @@ top: 11vh;
       font-size: 12px;
    }
    .indicator{
-   transform: scale(0.4);
-   width: 60vw;
-   left: 49vw;
+   transform: scale(0.38);
+   width: 66vw;
+   left: 45.5vw;
    top: 28vh;
+   }
+   .indicator p{
+   font-size: 26px;
+   top: -1.7vh;
+   left: 10vw;
    }
    .botton2, .botton3, .botton4{
    transform: scale(2.5);
@@ -486,8 +586,8 @@ top: 11vh;
    top: 5.5vh;
    }
    .botton1 p, .botton2 p, .botton3 p, .botton4 p{
-   font-size: 9px;
-   top: 6vh;
+   font-size: 5px;
+   top: 5.6vh;
    }
    .botton1 p{
    top: 5vh;
@@ -497,18 +597,30 @@ top: 11vh;
    }
    .play21 {
    transform: scale(0.7);
-   top: 80vh;
-   left: 27vw;
+   top: 84vh;
+   left: 25vw;
    }
    .play22 {
    transform: scale(0.7);
-   top: 80vh;
-   left: 43vw;
+   top: 84vh;
+   left: 41vw;
    }
    .play23 {
    transform: scale(0.7);
-   top: 80vh;
-   left: 59vw;
+   top: 84vh;
+   left: 57vw;
+   }
+   .play23 p {
+   top: 10vh;
+   left: 6vw;
+   }
+   .play22 p {
+   top: 10vh;
+   left: 6vw;
+   }
+   .play21 p {
+   top: 10vh;
+   left: 6vw;
    }
 
    .polzunok2 {
@@ -516,21 +628,34 @@ top: 11vh;
    }
    .polzunok1{
    transform: scale(0.6);
-   left: 40vw;
+   left: 38vw;
    top: 3vh;
    }
+   .polzunok1 p{
+   left: 4.5vw;
+   }
    .circle1{
-   top: 26vh;
+   top: 25vh;
    left: 17vw;
-   transform: scale(1.2);
+   transform: scale(1);
    }
    .circle2{
-   top: 24vh;
+   top: 23vh;
    left: 37vw;
-   transform: scale(0.9);
+   transform: scale(0.75);
+   }
+   .circle2 p{
+   font-size: 14px;
+   left: 6vw;
+   top: 1vh;
+   }
+   .circle1 p{
+   font-size: 11px;
+   left: 4vw;
+   top: 1.5vh;
    }
    .circle-polzunok1{
-   left: 3.4vw;
+   left: 5vw;
    }
    .title1 p{
    font-size: 12px;
@@ -540,33 +665,34 @@ top: 11vh;
    }
    .title1{
    width: 25vw;
-   top: 2.1vh;
-   left:67.5vw;
+   top: 2.9vh;
+   left:66vw;
    }
    .title2{
-   width: 38vw;
-   top: 2.1vh;
+   width: 33vw;
+   top: 2.5vh;
+   left: 20vw;
    }
    .points{
-   margin: -7.4vh 0 0 9vw;
+   margin: -7.6vh 0 0 9.5vw;
    transform: scale(0.8);
    }
    .points2{
-   margin: -11vh 0 0 9vw;
+   margin: -11vh 0 0 10vw;
    }
    .screen{
    transform: scale(0.5);
    top: 5vh;
-   left: 17vw;
+   left: 16vw;
     }
     .screen img{
     transform: scaleX(1.5);
      }
    .pm{
-   left: 11.5vw;
+   left: 10.5vw;
    width: 35vw;
    top:16vh;
-   transform: scale(0.6);
+   transform: scale(0.8);
    }
    .screen p{
    width: 29vw;
@@ -574,11 +700,11 @@ top: 11vh;
    }
    .numbers{
    top: 2vh;
-   left: 10vw;
+   left: 17vw;
    width: 11.8vw;
    }
    .bolt2 img, .bolt-logo img{
-   top: -3vh;
+   top: 2vh;
    }
    .bolt1 img, .bolt2 img{
    left: 2vw;
@@ -587,7 +713,7 @@ top: 11vh;
     transform: scale(1.8);
   }
    .merzlota{
-   top: 9vh;
+   top: 12vh;
    transform: scale(0.7);
    }
    .zavod{
