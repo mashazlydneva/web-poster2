@@ -19,15 +19,15 @@ $(document). ready(function(){
       }
     });
     $(function () {
-      let count = 5;
+      let count = 0;
       $('#plus').click(function () {
         count += 1;
-        if (count <= 5) {
-          $(this).addClass('blok5');
+        if (count >= 1) {
+          $('.zavod').addClass('blok4');
         }
       });
     });
-    // counter += 1;
+
 });
 $("#minus").click(function(){
    $(".numbers").css({
@@ -35,16 +35,40 @@ $("#minus").click(function(){
        return parseFloat (value) -60;
      }
    });
-   counter -= 1;
+   $(function () {
+     let count = 0;
+     $('#minus').click(function () {
+       count -= 1;
+       if (count <= 11) {
+         $('.zavod').removeClass('blok5');
+       }
+     });
+   });
 
 });
 
 $(".polzunok1").click(function(){
    $(".circle-polzunok1").css({
      top: function(index, value) {
-       return parseFloat (value) +39;
+       return parseFloat (value) +30;
      }
-   })
+   });
+   $(function () {
+     let count = 0;
+     $('.polzunok1').click(function () {
+       count += 1;
+       if (count >= 4) {
+         $('.circle-polzunok1').css({top: function(index, value) {
+           return parseFloat (value) -30;
+         }});
+       }
+       if (count == 1) {
+         $(".blok1").css("transform", scaleY(2)
+       );
+       }
+
+     });
+   });
 });
 
 $(".circle1").click(function(){
@@ -234,6 +258,7 @@ $(".botton2").click(function(){
 </section>
 
 <section class="zavod">
+
   <div class="tube1">
     <img src="images/Rectangle 69.svg" alt="">
   </div>
@@ -267,24 +292,42 @@ $(".botton2").click(function(){
     <div class="window1"></div>
     <div class="window2"></div>
     <div class="window3"></div>
+  <div class="window15"></div>
+  <div class="window16"></div>
+  <div class="window17"></div>
     <img src="images/Rectangle 84.svg" alt="">
   </div>
   <div class="blok2">
     <img src="images/Rectangle 66.svg" alt="">
   </div>
+  <div class="blok10">
+  </div>
+  <div class="blok11">
+  </div>
   <div class="blok3">
+      <div class="window7"></div>
+      <div class="window8"></div>
+      <div class="window9"></div>
+      <div class="window10"></div>
     <img src="images/Rectangle 69.svg" alt="">
-  </div>
-  <div class="blok4">
-    <img src="images/Rectangle 68.svg" alt="">
-  </div>
-  <div class="blok6">
-    <img src="images/Rectangle 84.svg" alt="">
   </div>
   <div class="blok7">
     <img src="images/Rectangle 66.svg" alt="">
   </div>
+  <div class="blok4">
+    <div class="window11"></div>
+    <div class="window14"></div>
+    <img src="images/Rectangle 68.svg" alt="">
+  </div>
+  <div class="blok6">
+    <div class="window18"></div>
+    <div class="window19"></div>
+    <div class="window20"></div>
+    <img src="images/Rectangle 84.svg" alt="">
+  </div>
   <div class="blok8">
+    <div class="window12"></div>
+    <div class="window13"></div>
     <img src="images/Rectangle 84.svg" alt="">
   </div>
   <div class="blok9">
@@ -292,10 +335,6 @@ $(".botton2").click(function(){
     <div class="window5"></div>
     <div class="window6"></div>
     <img src="images/Rectangle 66.svg" alt="">
-  </div>
-  <div class="blok10">
-  </div>
-  <div class="blok11">
   </div>
   <div class="blok12">
   </div>
