@@ -12,21 +12,29 @@
 
 
 $(document). ready(function(){
+  // let build = "<div class='blok4'> </div>"
+  let count = 0;
  $("#plus").click(function(){
+   count += 1;
+   if (count >= 1) {
+     console.log('1');
+     // // $('.zavod').append(build);
+     $("#hidden1").css("visibility", "hidden")
+     $("#hidden6").css("visibility", "visible")
+   };
+   if (count >= 2) {
+     console.log('1');
+     $("#hidden6").css("visibility", "hidden")
+     $(".light2").css("display", "block")
+     // $("#hidden1").css("visibility", "visible")
+   };
+
     $(".numbers").css({
       "background-position": function(index, value){
         return parseFloat (value) +60;
       }
     });
-    $(function () {
-      let count = 0;
-      $('#plus').click(function () {
-        count += 1;
-        if (count >= 1) {
-          $('.zavod').addClass('blok4');
-        }
-      });
-    });
+
 
 });
 $("#minus").click(function(){
@@ -36,12 +44,21 @@ $("#minus").click(function(){
      }
    });
    $(function () {
-     let count = 0;
      $('#minus').click(function () {
-       count -= 1;
-       if (count <= 11) {
-         $('.zavod').removeClass('blok5');
-       }
+       count += 1;
+       if (count >= 1) {
+         console.log('1');
+         $("#hidden1").css("visibility", "visible")
+       };
+       if (count >= 2) {
+         console.log('1');
+         $("#hidden6").css("visibility", "visible")
+         $(".light2").css("display", "none")
+       };
+       if (count >= 3) {
+         console.log('1');
+         $("#hidden8").css("visibility", "visible")
+       };
      });
    });
 
@@ -84,19 +101,34 @@ $(".botton4").click(function(){
    $("#botton_light4").css("visibility", "visible")
 });
 
+$(".botton1").click(function(){
+   $(".note1, .note2, .note3").css("visibility", "visible")
+   $("#botton_light1").css("visibility", "visible")
+});
+
 $(".botton3").click(function(){
    $(".smoke1, .smoke2, .smoke1-2").css("display", "none")
    $("#botton_light3").css("visibility", "visible")
 });
 
 $(".botton2").click(function(){
-		$(".window1, .window3, .window2, .window3, .window4, .window5, .window6").css("background","grey");
+		$(".window1, .window3, .window2, .window3, .window4, .window5, .window6,.window7,.window8,.window9,.window10,.window11,.window12,.window13,.window14,.window15,.window16,.window17,.window18,.window19,.window20").css("background","grey");
     $("#botton_light2").css("visibility", "visible")
 	});
 
+$(".play2").click(function(){
+     $(".snow1 img, .snow2 img, .snow3 img").css("animation-play-state", "paused")
+     $(".smoke1, .smoke2, .smoke1-2").css("animation-play-state", "paused")
+  });
+
   $(".play3").click(function(){
-  		$(".window1, .window3, .window2, .window3, .window4, .window5, .window6").css("background","radial-gradient(white, #ffda6c)");
-      $(".smoke1, .smoke2, .smoke1-2").css("animation-play-state", "running");
+  		$(".window1, .window3, .window2, .window3, .window4, .window5, .window6,.window7,.window8,.window9,.window10,.window11,.window12,.window13,.window14,.window15,.window16,.window17,.window18,.window19,.window20").css("background","radial-gradient(white, #ffda6c)");
+      $(".smoke1, .smoke2, .smoke1-2").css("display", "block");
+      $(".note1, .note2, .note3").css("visibility", "hidden");
+      $(".snow1 img, .snow2 img, .snow3 img").css("display", "block");
+       $("#botton_light3,#botton_light2,#botton_light1,#botton_light4").css("visibility", "hidden");
+       $(".snow1 img, .snow2 img, .snow3 img").css("animation-play-state", "running");
+       $(".smoke1, .smoke2, .smoke1-2").css("animation-play-state", "running");
   	});
 
 });
@@ -160,6 +192,7 @@ $(".botton2").click(function(){
   <div class="big-bottons">
     <div class="botton1">
       <img src="images/Group 79.svg" alt="">
+      <img id="botton_light1"src="images/Group 79 — копия.svg" alt="">
       <p>пояснения</p>
     </div>
     <div class="botton2">
@@ -296,6 +329,7 @@ $(".botton2").click(function(){
   <div class="window16"></div>
   <div class="window17"></div>
     <img src="images/Rectangle 84.svg" alt="">
+    <img id="hidden1" src="images/Rectangle 84.svg" alt="">
   </div>
   <div class="blok2">
     <img src="images/Rectangle 66.svg" alt="">
@@ -313,6 +347,7 @@ $(".botton2").click(function(){
   </div>
   <div class="blok7">
     <img src="images/Rectangle 66.svg" alt="">
+    <img id="hidden7" src="images/Rectangle 66.svg" alt="">
   </div>
   <div class="blok4">
     <div class="window11"></div>
@@ -324,17 +359,20 @@ $(".botton2").click(function(){
     <div class="window19"></div>
     <div class="window20"></div>
     <img src="images/Rectangle 84.svg" alt="">
+    <img id="hidden6" src="images/Rectangle 84.svg" alt="">
   </div>
   <div class="blok8">
     <div class="window12"></div>
     <div class="window13"></div>
     <img src="images/Rectangle 84.svg" alt="">
+    <img id="hidden8"src="images/Rectangle 84.svg" alt="">
   </div>
   <div class="blok9">
     <div class="window4"></div>
     <div class="window5"></div>
     <div class="window6"></div>
     <img src="images/Rectangle 66.svg" alt="">
+    <img id="hidden9" src="images/Rectangle 66.svg" alt="">
   </div>
   <div class="blok12">
   </div>
@@ -350,6 +388,18 @@ $(".botton2").click(function(){
   </div>
   <div class="light3">
     <img src="images/Group 100.svg" alt="">
+  </div>
+  <div class="note1">
+    <p>производственный цех</p>
+    <img src="images/Group 104.png" alt="">
+  </div>
+  <div class="note2">
+    <p>блок управления</p>
+    <img src="images/Group 105.png" alt="">
+  </div>
+  <div class="note3">
+    <p>хранилищный отсек</p>
+    <img src="images/Group 106.png" alt="">
   </div>
 
 </section>
