@@ -4,20 +4,39 @@
     margin: 0 0 0 0;
   }
   .lights{
-    width: 3.3vw;
+    width: 3vw;
   }
 .footter{
-  top: 20vh;
+  top: 18vh;
 }
 .indicator{
-transform: scale(1);
-width: 23vw;
-left: 61.5vw;
+transform: scale(1.1);
+width: 19.6vw;
+left: 62.5vw;
 top: 11vh;
 }
 .botton1, .botton2, .botton3, .botton4{
   transform: scale(1.2);
-  margin-top: 1vh;
+  margin-top: 0.3vh;
+}
+.botton1 #botton_light1 {
+  top: -0.5vh;
+  left: 0vw;
+}
+.botton2 #botton_light2 {
+  top: -0.5vh;
+  left: 0vw;
+}
+.botton3 #botton_light3 {
+  top: -0.5vh;
+  left: 0vw;
+}
+.botton4 #botton_light4 {
+  top: -0.5vh;
+  left: 0vw;
+}
+.botton1 p {
+  top: 7vh;
 }
 .play{
   transform: scale(1.1);
@@ -29,7 +48,7 @@ top: 11vh;
   left: 62vw;
 }
 .circle-polzunok1{
-  left: 1.75vw;
+  left: 1.6vw;
 }
 .title1 p{
   font-size: 18px;
@@ -52,17 +71,24 @@ top: 11vh;
   margin: -11vh 0 0 3.8vw;
 }
 .numbers{
-  width: 4vw;
+  width: 3.5vw;
 }
 .pm{
   top: 29vh;
   left: 9.2vw;
+}
+.note2 p{
+  margin-left: 16.7vw;
+}
+.note3 p{
+  margin-left: 4.6vw;
 }
   .zavod{
     width: 100vw;
     margin: 0 0 0 0;
   }
    }
+
    @media all and (min-width: 1680px) and (max-width: 1800px){
      .play21, .play22, .play23{
        display: none;
@@ -90,6 +116,25 @@ top: 11vh;
 .botton1, .botton2, .botton3, .botton4{
   transform: scale(1.2);
   margin-top: 1vh;
+}
+.botton1 p{
+  left: -0.5vw;
+}
+.botton1 #botton_light1 {
+  top: -0.5vh;
+  left: 0vw;
+}
+.botton2 #botton_light2 {
+  top: -0.5vh;
+  left: 0vw;
+}
+.botton3 #botton_light3 {
+  top: -0.5vh;
+  left: 0vw;
+}
+.botton4 #botton_light4 {
+  top: -0.5vh;
+  left: 0vw;
 }
 .play{
   transform: scale(1.1);
@@ -161,6 +206,18 @@ top: 11vh;
 .tube3{
   top: 44vh;
 }
+.tube9{
+  top: 45vh;
+}
+.note1{
+  left: 2vw;
+}
+.note2 p{
+  margin-left: 19.6vw;
+}
+.note3 p{
+  margin-left: 5.5vw;
+}
 
   }
 
@@ -171,6 +228,26 @@ top: 11vh;
      }
      .botton1 p, .botton2 p, .botton3 p, .botton4 p{
        font-size: 13px;
+       top: 7vh;
+     }
+     .botton1 p{
+       top: 6vh;
+     }
+     .botton1 #botton_light1 {
+       top: -0.3vh;
+       left: 0vw;
+     }
+     .botton2 #botton_light2 {
+       top: -0.5vh;
+       left: 0vw;
+     }
+     .botton3 #botton_light3 {
+       top: -0.5vh;
+       left: 0vw;
+     }
+     .botton4 #botton_light4 {
+       top: -0.5vh;
+       left: 0vw;
      }
      .footter{
        top: 19vh;
@@ -186,10 +263,24 @@ top: 11vh;
      left: 61.5vw;
      top: 11vh;
      }
+     .indicator p{
+     transform: scale(1.24);
+     left: 3vw;
+     top: -0.8vh;
+     }
      .play{
        transform: scale(1);
        left: 62.3vw;
        top: 19vh;
+     }
+     .play1 p{
+       left: 1vw;
+     }
+     .play2 p{
+       left: 8.6vw;
+     }
+     .play3 p{
+       left: 17vw;
      }
      .play2{
        left: 1vw;
@@ -208,10 +299,10 @@ top: 11vh;
      .polzunok1{
        transform: scale(0.95);
        left: 31vw;
-       top: 12vh;
+       top: 11vh;
      }
      .circle-polzunok1{
-       left: 1.75vw;
+       left: 2vw;
      }
      .title1 p{
        font-size: 18px;
@@ -245,10 +336,19 @@ top: 11vh;
      .screen p{
        width: 10vw;
      }
-     .numbers{
+     .numbers {
        top: 2vh;
        left: 6vw;
        width: 5vw;
+     }
+     .note1{
+       left: 2vw;
+     }
+     .note2 p{
+       margin-left: 22vw;
+     }
+     .note3 p{
+       margin-left: 6vw;
      }
      .blok1{
        transform: scale(0.9);
@@ -275,8 +375,17 @@ top: 11vh;
        top: 32vw;
      }
      .blok12{
-       width: 10vw;
+       width: 7vw;
        left: 84vw;
+     }
+     .light1{
+       left: 40.5vw;
+     }
+     .light2{
+       left: 71vw;
+     }
+     .light3{
+       left: 55.5vw;
      }
 
      .blok5{
@@ -343,26 +452,67 @@ top: 11vh;
    left: 60vw;
    top: 8vh;
    }
+   .indicator p{
+   transform: scale(1.3);
+   left: 5vw;
+   top: -0.5vh;
+   }
    .botton1, .botton2, .botton3, .botton4{
      transform: scale(1.2);
-     margin-top: 0.5vh;
+     margin-top: 0.3vh;
+   }
+   .botton1 #botton_light1 {
+     top: -0.3vh;
+     left: 0vw;
+   }
+   .botton2 #botton_light2 {
+     top: -0.5vh;
+     left: 0vw;
+   }
+   .botton3 #botton_light3 {
+     top: -0.5vh;
+     left: 0vw;
+   }
+   .botton4 #botton_light4 {
+     top: -0.5vh;
+     left: 0vw;
    }
    .big-bottons{
      left: 52vw;
    }
    .botton1 p, .botton2 p, .botton3 p, .botton4 p{
      font-size: 13px;
+    top: 6.5vh;
+   }
+   .botton1 p{
+     top: 5.4vh;
+     margin-left: 1.4vw;
    }
    .play {
      transform: scale(0.7);
      left: 60.5vw;
      top: 14vh;
    }
+   .play1 p{
+     transform: scale(1.3);
+     left: 2vw;
+     top:1vh;
+   }
    .play2{
      left: 4vw;
    }
+   .play2 p{
+     transform: scale(1.3);
+     left: 12vw;
+     top:1vh;
+   }
    .play3{
     left: 8vw;
+   }
+   .play3 p{
+     transform: scale(1.3);
+     left: 23.5vw;
+     top:1vh;
    }
    .play21, .play22, .play23{
      display: none;
@@ -377,6 +527,9 @@ top: 11vh;
      left: 33vw;
      top: 6vh;
    }
+   .polzunok1 p{
+     left: 1.4vw;
+   }
    .circle1{
      top: 8vh;
      transform: scale(0.8);
@@ -386,7 +539,7 @@ top: 11vh;
      transform: scale(0.8);
    }
    .circle-polzunok1{
-     left: 1.75vw;
+     left: 2.5vw;
    }
    .title1 p{
      font-size: 14px;
@@ -397,10 +550,12 @@ top: 11vh;
    .title1{
      width: 16vw;
      top: 2.1vh;
+     left: 61vw;
    }
    .title2{
      width: 20vw;
      top: 2.1vh;
+     left: 18vw;
    }
    .points{
      margin: -8vh 0 0 4vw;
@@ -420,6 +575,7 @@ top: 11vh;
    }
    .screen p{
      width: 14vw;
+     left: 2vw;
    }
    .numbers{
      top: 2vh;
@@ -436,10 +592,128 @@ top: 11vh;
      top: 9vh;
      transform: scale(0.7);
    }
+   .note1{
+     transform: scale(0.8);
+     left: 1vw;
+   }
+   .note2{
+     transform: scale(0.8);
+   }
+   .note3{
+     transform: scale(0.8);
+     left: 73vw;
+     top: 67vh;
+   }
+   .note2 p{
+     margin-left: 27vw;
+   }
+   .note3 p{
+     margin-left: 7vw;
+   }
      .zavod{
        width: 100vw;
        margin: 0 0 0 0;
      }
+     .blok1{
+       transform: scale(0.9);
+       margin-left: -2vw;
+     }
+     .window1,.window2,.window3,.window15,.window17,.window16{
+       left: 2.5vw;
+       width: 13%;
+     }
+     .window2,.window16{
+       left: 4vw;
+     }
+     .window3, .window17{
+       left: 5.5vw;
+     }
+     .window4,.window5,.window6{
+       left: 23.5vw;
+       width: 2.6%;
+     }
+     .window5{
+       left: 25.2vw;
+     }
+     .window6{
+       left: 27vw;
+     }
+     .tube4{
+       left: 2vw;
+     }
+     .tube9{
+       top: 39vw;
+       left: 2vw;
+     }
+     .tube6{
+       left: 1vw;
+     }
+     .tube7{
+       left: 0vw;
+     }
+     .blok12{
+       width: 4vw;
+       left: 88vw;
+     }
+     .light1{
+       left: 39.9vw;
+     }
+     .light2{
+       left: 70.5vw;
+     }
+     .light3{
+       left: 56.5vw;
+     }
+
+     .blok5{
+       width: 88vw;
+     }
+     .blok4{
+       transform: scaleX(0.98);
+     }
+     .blok6 {
+       transform: scaleX(0.9);
+     }
+     .window18,.window19,.window20{
+       width: 13%;
+       left: 5vw;
+     }
+     .window19{
+       left: 0vw;
+     }
+     .window20{
+       left: 7vw;
+     }
+     .blok9{
+       left: 0vw;
+     }
+     .smoke1{
+       width: 26vw;
+     }
+     .smoke2{
+       width: 53.7vw;
+       left: -5vw;
+     }
+   .tube3{
+     top: 44vh;
+     left: 4vw;
+   }
+   .tube2{
+     top: 43vh;
+     left: 2.5vw;
+   }
+   .tube5{
+     left: 3vw;
+   }
+   .window11{
+     width: 8vw;
+     left: 1vw;
+   }
+   .window14{
+     width: 4vw;
+     left: 1.5vw;
+     top: 2vh;
+   }
   }
   @media all and (min-width: 768px) and (max-width: 1023px) {
     .panel{
@@ -480,9 +754,26 @@ top: 11vh;
   left: 0vw;
   top: 24vh;
   }
+  .indicator p{
+  transform: scale(1.5);
+  left: 9vw;
+  }
   .botton1, .botton2, .botton3, .botton4{
     transform: scale(1.7);
     margin-top: 1.2vh;
+  }
+
+  .botton2 #botton_light2 {
+    top: -0.2vh;
+    left: 0vw;
+  }
+  .botton3 #botton_light3 {
+    top: -0.2vh;
+    left: 0vw;
+  }
+  .botton4 #botton_light4 {
+    top: -0.2vh;
+    left: 0vw;
   }
   .big-bottons{
     left: 74vw;
@@ -539,6 +830,12 @@ top: 11vh;
     left: 35vw;
     transform: scale(0.8);
   }
+  .circle1 p{
+    left: 1vw;
+  }
+  .circle2 p{
+    left: 2.4vw;
+  }
   .circle2{
     top: 17vh;
     left: 33vw;
@@ -554,9 +851,9 @@ top: 11vh;
     font-size: 14px;
   }
   .title1{
-    width: 24vw;
+    width: 22vw;
     top: 2.1vh;
-    left: 55vw;
+    left: 68vw;
   }
   .title2{
     width: 29vw;
@@ -575,18 +872,52 @@ top: 11vh;
     left: 12.5vw;
   }
   .pm{
-    left: 10vw;
+    left: 9.5vw;
     width: 28vw;
-    top:17vh;
-    transform: scale(0.7);
+    top:16.5vh;
+    transform: scale(0.6);
   }
   .screen p{
     width: 19vw;
+    left: 2vw;
+    top:1vh;
+    transform: scale(1);
   }
   .numbers{
     top: 2vh;
     left: 10vw;
     width: 7.6vw;
+  }
+  .note1{
+    transform: scale(0.8);
+    left: -2vw;
+    top:47vh;
+  }
+  .note2{
+    transform: scale(0.8);
+    top: 35vh;
+    left: 7vw;
+  }
+  .note2 img{
+    transform:  rotate(32deg);
+  }
+  .note3{
+    transform: scale(0.8);
+    left: 67vw;
+    top: 42vh;
+  }
+  .note3 img{
+    transform:  rotate(56deg);
+  }
+  .note2 p{
+    margin-left: 0vw;
+    margin-top: -0.5vh;
+  }
+  .note3 p{
+    margin-left: 2vw;
+    line-height: 2vh;
+    margin-top:-8vh;
+    width: 5vw;
   }
   .bolt2 img, .bolt-logo img{
     top: -4vh;
@@ -600,10 +931,203 @@ top: 11vh;
   }
     .zavod{
       width: 100vw;
-      margin: -10vh 0 0 0;
+      height: 0vh;
+      /* transform: scale(0.7); */
+      margin: -18vh 0 0 0vw;
     }
+    .blok1{
+      transform: scale(0.7);
+      margin-left: -6vw;
+      top: 25vh;
+    }
+    .window1,.window2,.window3,.window15,.window17,.window16{
+      left: 2.5vw;
+      width: 13%;
+    }
+    .window2,.window16{
+      left: 6vw;
+    }
+    .window3, .window17{
+      left: 9.5vw;
+    }
+    .window4,.window5,.window6{
+      left: 23.5vw;
+      width: 2.6%;
+    }
+    .window5{
+      left: 25.2vw;
+    }
+    .window6{
+      left: 27vw;
+    }
+
+    .tube4{
+      transform: scale(0.8);
+      left: 2vw;
+      top:25vh;
+    }
+    .tube9{
+      top: 34vw;
+      left: 9vw;
+    }
+    .tube8{
+      width: 1vw;
+      top: 34vw;
+      left: 10vw;
+    }
+    .tube6{
+      left: -4vw;
+      top:29vh;
+      transform: scaleX(0.4);
+    }
+    .tube7{
+      top:18vh;
+      left: -6vw;
+    }
+    .blok12{
+      width: 4vw;
+      left: 88vw;
+
+    }
+    .light1{
+      left: 45vw;
+      top:47vh;
+    }
+    .light2{
+      top:48vh;
+      left: 81.5vw;
+    }
+    .light3{
+      left: 66vw;
+      top:67vh;
+    }
+
+    .blok5{
+      width: 88vw;
+      margin-top: 22vh;
+      transform: scale(0.7);
+
+    }
+    .blok4{
+      transform: scale(0.8);
+      top: 19vh;
+      left: 6vw;
+    }
+    .blok6 {
+      transform: scale(0.8);
+      top:22vh;
+      left: 7vw;
+    }
+    .window18,.window19,.window20{
+      width: 13%;
+      top:2vh;
+      left: 2.5vw;
+    }
+    .window19{
+      left: 0vw;
+    }
+    .window20{
+      left: 14vw;
+    }
+    .blok9{
+      left: 0vw;
+      top:26vh;
+    }
+    .blok2{
+      transform: scale(0.7);
+left: -17vw;
+top: 24vh;
  }
- @media all and (min-width: 320px) and (max-width: 767px) {
+ .blok3{
+   transform: scale(0.8);
+left: 2.7vw;
+top: 23vh;
+}
+ .blok5{
+top:55vh;
+left: -27vw;
+width: 150vw;
+}
+.blok8{
+top:0vh;
+left: 20vw;
+}
+.blok7{
+  transform: scale(0.8);
+top:24vh;
+left: 10vw;
+}
+
+.blok10{
+display: none;
+}
+.blok11{
+display: none;
+}
+.blok12{
+display: none;
+}
+.blok13{
+  top:50vh;
+  width: 1vw;
+  left: 48vw;
+}
+.blok14{
+  top:52vh;
+  left: 85vw;
+  width: 1vw;
+}
+
+    .smoke1{
+      width: 33vw;
+      top: -11vh;
+      left: -6vw;
+      transform: scale(0.8);
+    }
+    .smoke2{
+      width: 70vw;
+      left: -8vw;
+      top: -8vh;
+      transform: scale(0.8);
+    }
+    .smoke1-2{
+      width: 33vw;
+      top: -21vh;
+      left: -10vw;
+      transform: scale(0.8);
+    }
+  .tube3{
+    top: 29vh;
+    left: 1vw;
+  }
+  .tube1{
+    top: 30vh;
+    left: -4vw;
+  }
+  .tube2{
+    top: 30vh;
+    left: -1vw;
+  }
+  .tube5{
+    top:27vh;
+    left: 9vw;
+  }
+  .window11{
+    width: 11vw;
+    left: 2vw;
+  }
+  .window14{
+    width: 6vw;
+    left: 1.5vw;
+    top: 9vh;
+  }
+  .window7,.window8,.window9,.window10{
+    width: 32%;
+    top:2vh;
+    left: 2vw;
+  }
+ }
+ @media all and (min-width: 500px) and (max-width: 767px) {
    .panel{
      width: 100vw;
      margin: 0 0 0 0;
@@ -656,6 +1180,19 @@ top: 11vh;
    .botton2, .botton3, .botton4{
    transform: scale(2.5);
    margin-top: 3vh;
+   }
+
+   .botton2 #botton_light2 {
+     top: -0.2vh;
+     left: 0vw;
+   }
+   .botton3 #botton_light3 {
+     top: -0.2vh;
+     left: 0vw;
+   }
+   .botton4 #botton_light4 {
+     top: -0.2vh;
+     left: 0vw;
    }
    .botton1{
      display: none;
@@ -799,4 +1336,633 @@ top: 11vh;
      width: 100vw;
      margin: -10vh 0 0 0;
    }
+   .blok1{
+   transform: scale(0.5);
+   margin-left: -12vw;
+   top: 25vh;
+ }
+ .window1,.window2,.window3,.window15,.window17,.window16{
+   left: 2.5vw;
+   width: 13%;
+ }
+ .window2,.window16{
+   left: 8vw;
+ }
+ .window3, .window17{
+   left: 13.5vw;
+ }
+ .window4,.window5,.window6{
+   left: 7vw;
+   width: 12.6%;
+ }
+ .window5{
+   left: 11vw;
+ }
+ .window6{
+   left: 15vw;
+ }
+
+ .tube4{
+   transform: scale(0.7);
+   left: 1vw;
+   top:35vh;
+ }
+ .tube9{
+   top: 69vw;
+   transform: scale(0.2);
+   left: 9vw;
+ }
+ .tube8{
+   transform: scale(0.3);
+   top: 68vw;
+   left: 6vw;
+ }
+ .tube6{
+   left: -4vw;
+   top:32vh;
+   transform: scale(0.4);
+ }
+ .tube7{
+   top:28vh;
+   transform: scale(0.2);
+   left: -8vw;
+ }
+ .blok12{
+   width: 4vw;
+   left: 88vw;
+
+ }
+ .light1{
+   left: 47.5vw;
+   transform: scale(0.5);
+   top:57vh;
+ }
+ .light2{
+   transform: scale(0.4);
+   top:58vh;
+   left: 81.5vw;
+ }
+ .light3{
+   left: 67vw;
+   transform: scale(0.7);
+   top:69vh;
+ }
+
+ .blok5{
+   width: 88vw;
+   margin-top: 22vh;
+   transform: scale(0.7);
+
+ }
+ .blok4{
+   transform: scale(0.5);
+   top: 24vh;
+   left: 4vw;
+ }
+ .blok6 {
+   transform: scale(0.6);
+   top:25vh;
+   left: 7vw;
+ }
+ .window18,.window19,.window20{
+   width: 10%;
+   height: 54%;
+   top:2vh;
+   left: 3vw;
+ }
+ .window19{
+   left: 0vw;
+ }
+ .window20{
+   left: 15vw;
+ }
+ .blok9{
+   transform: scale(0.7);
+   left: -5vw;
+   top:30vh;
+ }
+ .blok2{
+display: none;
+}
+.blok3{
+transform: scale(0.5);
+left: 4vw;
+top: 27vh;
+}
+.blok5{
+top:55vh;
+left: -27vw;
+width: 150vw;
+}
+.blok8{
+top:0vh;
+left: 20vw;
+}
+.blok7{
+transform: scale(0.6);
+top:25vh;
+left: 10vw;
+}
+
+.blok10{
+display: none;
+}
+.blok11{
+display: none;
+}
+.blok12{
+display: none;
+}
+.blok13{
+top: 60vh;
+width: 1vw;
+left: 52vw;
+height: 5vh;
+}
+.blok14{
+top:61vh;
+height: 5vh;
+left: 87vw;
+width: 1vw;
+}
+
+ .smoke1{
+   width: 56vw;
+   top: 3vh;
+   left: -13vw;
+   transform: scale(0.5);
+ }
+ .smoke2{
+   width: 110vw;
+   left: -28vw;
+   top:6vh;
+   transform: scale(0.5);
+ }
+ .smoke1-2{
+   width: 55vw;
+   top: -4vh;
+   left: -20vw;
+   transform: scale(0.5);
+ }
+.tube3{
+ top: 34vh;
+ transform: scale(0.1);
+ left: 1vw;
+}
+.tube1{
+ top: 31vh;
+ transform: scale(0.3);
+ left: -4vw;
+}
+.tube2{
+ top: 32vh;
+ transform: scale(0.2);
+ left: -1vw;
+}
+.tube5{
+  transform: scale(0.4);
+ top:29vh;
+ left: 9vw;
+}
+.window11{
+ width: 16vw;
+ left: 5vw;
+}
+.window14{
+ width: 10vw;
+ left: 6vw;
+ top: 5vh;
+}
+.window7,.window8,.window9,.window10{
+  width: 32%;
+  left: 4vw;
+}
+ }
+ @media all and (min-width: 320px) and (max-width: 499px) {
+   .panel{
+     width: 100vw;
+     margin: 0 0 0 0;
+   }
+   .back{
+     height: 35vh;
+     left: -2.5vw;;
+     border-radius: 15px;
+   }
+   .back2{
+     top:8.5vh;
+     left: 1.5;
+     width: 90%;
+     border-radius: 15px;
+   }
+   .stroke, .stroke2{
+     height: 25vh;
+     border-radius: 15px;
+   }
+   .stroke2{
+     width: 50vw;
+     left: 9vw;
+     height: 30vh;
+   }
+   .stroke{
+     width: 27vw;
+     left: 63vw;
+     height: 30vh;
+   }
+   .lights{
+     display: none;
+   }
+   .footter{
+   top: 18vh;
+   left: 75vw;
+   width: 35vw;
+   }
+   .footter p{
+      font-size: 8px;
+   }
+   .indicator{
+   transform: scale(0.3);
+   width: 90vw;
+   height: 10vh;
+   left: 33vw;
+   top: 27.5vh;
+   }
+   .indicator p{
+   font-size: 26px;
+   top: -2.7vh;
+   left: 17vw;
+   }
+   .botton2, .botton3, .botton4{
+   transform: scale(2.5);
+   margin-top: 3vh;
+   }
+   .botton1{
+     display: none;
+   }
+   .botton2 #botton_light2 {
+     top: 0vh;
+     left: 0vw;
+   }
+   .botton3 #botton_light3 {
+     top: 0vh;
+     left: 0vw;
+   }
+   .botton4 #botton_light4 {
+     top: 0vh;
+     left: 0vw;
+   }
+   .big-bottons{
+   left: 73.5vw;
+   top: 5.5vh;
+   }
+   .botton1 p, .botton2 p, .botton3 p, .botton4 p{
+   font-size: 4px;
+   top: 5vh;
+   }
+   .botton1 p{
+   top: 5vh;
+   }
+   .play {
+   display: none
+   }
+   .play21 {
+   transform: scale(0.6);
+   top: 79vh;
+   left: 15vw;
+   }
+   .play22 {
+   transform: scale(0.6);
+   top: 79vh;
+   left: 35vw;
+   }
+   .play23 {
+   transform: scale(0.6);
+   top: 79vh;
+   left: 54vw;
+   }
+   .play23 p {
+   top: 14vh;
+   left: 9vw;
+   }
+   .play22 p {
+   top: 14vh;
+   left: 8vw;
+   }
+   .play21 p {
+   top: 14vh;
+   left: 10vw;
+   }
+
+   .polzunok2 {
+   display: none;
+   }
+   .polzunok1{
+   transform: scale(0.4);
+   left: 32vw;
+   top: -4vh;
+   }
+   .polzunok1 p{
+   left: 7vw;
+   top: 24vh;
+   }
+   .circle1{
+   top: 23vh;
+   left: 13vw;
+   transform: scale(0.6);
+   }
+   .circle2{
+   top: 20vh;
+   left: 30vw;
+   transform: scale(0.45);
+   }
+   .circle2 p{
+   font-size: 16px;
+   left: 10vw;
+   top: 0vh;
+   }
+   .circle1 p{
+   font-size: 11px;
+   left: 7vw;
+   top: 1vh;
+   }
+   .circle-polzunok1{
+   left: 8vw;
+   }
+   .title1 p{
+   font-size: 8px;
+   }
+   .title2 p{
+   font-size: 8px;
+   }
+   .title1{
+   width: 26vw;
+   top: 2vh;
+   left:66vw;
+   }
+   .title2{
+   width: 34vw;
+   top: 1.6vh;
+   left: 18vw;
+   }
+   .points{
+   margin: -12.6vh 0 0 14.5vw;
+   transform: scale(0.75);
+   }
+   .points2{
+     transform: scale(0.8);
+   margin: -17.5vh 0 0 17vw;
+   }
+   .screen{
+   transform: scale(0.45);
+   top: 2.4vh;
+   left: 13vw;
+    }
+
+   .pm{
+   left:2vw;
+   width: 55vw;
+   top:15.5vh;
+   transform: scale(0.4);
+   }
+   .screen p{
+   width: 66vw;
+   left: 8vw;
+   top: -1vh;
+   font-size: 17px;
+   }
+   .numbers{
+   top: 2vh;
+   left: 17vw;
+   width: 19vw;
+   height: 20vh;
+   }
+   .bolt2 img, .bolt-logo img{
+   top: 2vh;
+   }
+   .bolt1 img, .bolt2 img{
+   left: 2vw;
+   }
+  .bolts img{
+    transform: scale(1.8);
+  }
+   .merzlota{
+   top: 8vh;
+   left: 1vw;
+   transform: scale(0.4);
+   }
+   .zavod{
+     width: 100vw;
+     /* margin: -10vh 0 0 0; */
+   }
+   .blok1{
+   transform: scale(0.4);
+   margin-left: -25vw;
+   top: 15vh;
+ }
+ .window1,.window2,.window3,.window15,.window17,.window16{
+   left: 17vw;
+   top: 14vh;
+   width: 13%;
+   transform: scale(1.2);
+ }
+ .window15,.window17,.window16{
+   top: 10vh;
+ }
+ .window2,.window16{
+   left: 26vw;
+ }
+ .window3, .window17{
+   left: 35vw;
+ }
+ .window4,.window5,.window6{
+   top: 3vh;
+   left: 8vw;
+   width: 12.6%;
+ }
+ .window5{
+   left: 18vw;
+ }
+ .window6{
+   left: 29vw;
+ }
+
+ .tube4{
+   transform: scale(0.4);
+   left: -5vw;
+   top:25vh;
+ }
+ .tube9{
+   top: 35vw;
+   transform: scale(0.2);
+   left: 1vw;
+ }
+ .tube8{
+   transform: scale(0.3);
+   top: 68vw;
+   left: 6vw;
+ }
+ .tube6{
+   left: -4vw;
+   top: 25.5vh;
+   transform: scale(0.4);
+ }
+ .tube7{
+   top:12vh;
+   transform: scale(0.2);
+   left: -11vw;
+ }
+ .blok12{
+   width: 4vw;
+   left: 88vw;
+
+ }
+ .light1{
+   left: 42vw;
+   transform: scale(0.5);
+   top:49vh;
+ }
+ .light2{
+   transform: scale(0.4);
+   top:53vh;
+   left: 75.5vw;
+ }
+ .light3{
+   left: 58vw;
+   transform: scale(0.4);
+   top:69vh;
+ }
+
+ .blok5{
+   width: 88vw;
+   margin-top: 20vh;
+   transform: scale(0.7);
+
+ }
+ .blok4{
+   transform: scale(0.4);
+   top: 5vh;
+   left: -1vw;
+ }
+ .blok6 {
+   transform: scale(0.4);
+   top:15vh;
+   left: -8vw;
+ }
+ .window18,.window19,.window20{
+   width: 14%;
+   height: 65%;
+   top:7vh;
+   left: 10vw;
+ }
+ .window19{
+   left: 2vw;
+ }
+ .window20{
+   left: 28vw;
+ }
+ .blok9{
+   transform: scale(0.4);
+   left: -15vw;
+   top:22vh;
+ }
+ .blok2{
+display: none;
+}
+.blok3{
+transform: scale(0.4);
+left: -2vw;
+top: 13vh;
+}
+.blok5{
+top:55vh;
+left: -27vw;
+width: 150vw;
+}
+.blok8{
+top:0vh;
+left: 20vw;
+}
+.blok7{
+transform: scale(0.4);
+top:20vh;
+left: 10vw;
+}
+
+.blok10{
+display: none;
+}
+.blok11{
+display: none;
+}
+.blok12{
+display: none;
+}
+.blok13{
+top: 54vh;
+width: 1vw;
+left: 49vw;
+height: 5vh;
+}
+.blok14{
+top:58vh;
+height: 5vh;
+left: 84vw;
+width: 1vw;
+}
+
+ .smoke1{
+   width: 76vw;
+   height: 50vh;
+   top: -12vh;
+   left: -28vw;
+   transform: scale(0.4);
+ }
+ .smoke2{
+   width: 160vw;
+   height: 95vh;
+   left: -56vw;
+   top:-22vh;
+   transform: scale(0.4);
+ }
+ .smoke1-2{
+   width: 76vw;
+   height: 50vh;
+   top: -18vh;
+   left: -35vw;
+   transform: scale(0.3);
+ }
+.tube3{
+ top: 34vh;
+ transform: scale(0.1);
+ left: 1vw;
+}
+.tube1{
+ top: 19vh;
+ transform: scale(0.2);
+ left: -9vw;
+}
+.tube2{
+ top: 20vh;
+ transform: scale(0.16);
+ left: -3vw;
+}
+.tube5{
+  transform: scale(0.4);
+ top:24vh;
+ left: 3vw;
+}
+.window11{
+ width: 25vw;
+ top: 4vh;
+ left: 8vw;
+}
+.window14{
+ width: 20vw;
+ height: 20vh;
+ left: 0vw;
+ top: 30vh;
+}
+.window7,.window8,.window9,.window10{
+  width: 32%;
+  left: 4vw;
+}
  }

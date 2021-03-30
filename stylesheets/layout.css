@@ -56,7 +56,7 @@ animation: snowfalling 50s infinite;
 
 
 
-.panel{
+.panel {
   position: relative;
   margin: 0 0 0 0;
   width: 100vw;
@@ -100,6 +100,14 @@ animation: snowfalling 50s infinite;
   position: fixed;
   font-weight: normal;
   margin: -5vh 0 0 2.1vw;
+}
+.botton1 #botton_light1{
+  visibility: hidden;
+  position: fixed;
+  width: 10vw;
+  transform: scale(1.15);
+  top: 6.5vh;
+  left: 47vw;
 }
 .botton2 img{
   position: relative;
@@ -214,7 +222,7 @@ transform: scale(1.15);
 }
 .play1 p{
   position: fixed;
-  margin: 11vh 0 0 2vw;
+  margin: 11vh 0 0 2.2vw;
   color: #FFFFFF;
   font-size: 16px;
 }
@@ -226,7 +234,7 @@ transform: scale(1.15);
 }
 .play3 p{
   position: fixed;
-  margin: 11vh 0 0 1.5vw;
+  margin: 11vh 0 0 1.8vw;
   color: #FFFFFF;
   font-size: 16px;
 }
@@ -252,7 +260,7 @@ left: 9vw;
 }
 .numbers{
   position: fixed;
-  top:16vh;
+  top:15vh;
   left: 13vw;
   width: 3.4vw;
   height: 11vh;
@@ -503,7 +511,7 @@ left: 2.5vw;}
 #hidden9 {
   position: fixed;
   margin: 0vh 0 0 -1vw;
-  opacity: 0;
+  visibility: hidden;
 }
 #hidden1 {
   position: fixed;
@@ -518,12 +526,47 @@ left: 2.5vw;}
 #hidden8 {
   position: fixed;
   margin: -10vh 0 0 -11.5vw;
-  opacity: 0;
+  visibility: hidden;
 }
 #hidden7 {
   position: fixed;
   margin: -5vh 0 0 -1vw;
-  opacity: 0;
+  visibility: hidden;
+}
+.note1 p{
+  position: fixed;
+  margin-top: -3vh;
+  color: white;
+}
+.note1{
+  position: fixed;
+  top:58vh;
+  left: 5vw;
+  visibility: hidden;
+}
+.note2{
+  position: fixed;
+  top:53vh;
+  left: 56vw;
+  visibility: hidden;
+}
+.note2 p{
+  position: fixed;
+  margin-top: -3vh;
+  margin-left: 15.5vw;
+  color: white;
+}
+.note3{
+  position: fixed;
+  top:65vh;
+  left: 79vw;
+  visibility: hidden;
+}
+.note3 p{
+  position: fixed;
+  margin-left: 4vw;
+  margin-top: -3vh;
+  color: white;
 }
 
 .blok10{
